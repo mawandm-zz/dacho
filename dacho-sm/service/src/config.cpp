@@ -7,7 +7,7 @@
 
 static std::string GetDachoHome(){
 	//std::wstring location = GetModuleLocation();
-	std::string location = "C:\\Users\\mawandm\\Documents\\projects\\kakooge\\dacho-sm\\dist\\config\\djvm.properties";
+	std::string location = "C:\\Users\\mawandm\\Documents\\projects\\kakooge\\dacho\\dacho-sm\\dist\\config\\djvm.properties";
 	char path[MAX_PATH] = {0};
 	strcpy(path, location.c_str());
 	PathRemoveFileSpec(path);
@@ -27,7 +27,7 @@ void GetConfiguration(std::map<std::string, std::string> &config){
 #endif
 
 	std::string &location = dachohome + SEPARATOR + "config" + SEPARATOR "djvm.properties";
-	std::string &classpath = dachohome + SEPARATOR + "dacho-service-manager-1.0.jar";
+	std::string &classpath = dachohome + SEPARATOR + "lib"  + SEPARATOR + "dacho-service-manager-1.0.jar";
 	std::string &configpath = dachohome + SEPARATOR + "config" + SEPARATOR "dacho.xml";
 	std::string &logger = dachohome + SEPARATOR + "config" + SEPARATOR + "logging.properties";
 
@@ -40,6 +40,8 @@ void GetConfiguration(std::map<std::string, std::string> &config){
 	std::string line;
 	while(std::getline(input, line)){
 		size_t pos = 0;
+		if(line[0] == '#')
+			continue;
 		while(pos>=0){
 			pos = line.find('=', pos);
 			if(pos==std::string::npos)

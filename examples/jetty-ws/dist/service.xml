@@ -4,7 +4,6 @@
 		<name>org.kakooge.dacho.jetty.JettyService</name>
 		<!-- Start arguments -->
 		<params>
-		<!-- 
 			<param>
 				<name>contexts</name>
 				<value>/home/mawandm/Documents/Projects/jetty-ws/contexts</value>
@@ -12,11 +11,6 @@
 			<param>
 				<name>port</name>
 				<value>8983</value>
-			</param>
-		-->
-			<param>
-				<name>config</name>
-				<value>config/jetty.xml</value>
 			</param>
 		</params>
 	</class>

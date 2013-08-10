@@ -15,5 +15,6 @@
 
 int RunService(Daemon *daemon);
 void InstallService();
+void UninstallService();
 
 #endif

@@ -7,11 +7,10 @@
 	<property name="dist.dir" value="${basedir}/dist"/>
 	<property name="lib.dir" value="${dist.dir}/lib"/>
     <property name="out.file" value="${dist.dir}/lib/${app.name}.jar"/>
-	<property name="common.lib.dir" value="../lib"/>
+	<property name="common.lib.dir" value="../external"/>
 	<property name="main.class" value="org.kakooge.dacho.loader.Bootstrap" />
-	<property name="ddm-service" value="../download-manager/dist/"/>
-	<property name="jetty-service" value="../jetty-ws/dist/"/>
-	<property name="derby-service" value="../derbydb-service/dist/"/>
+	<property name="ddm-service" value="../examples/download-manager/dist/"/>
+	<property name="jetty-service" value="../examples/jetty-ws/dist/"/>
 
     <path id="master-classpath">
     	<!--

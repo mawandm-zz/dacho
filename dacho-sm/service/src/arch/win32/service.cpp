@@ -1,11 +1,10 @@
 /*
 Reference:
 http://msdn.microsoft.com/en-us/library/bb540476%28v=VS.85%29.aspx
-http://www.codeproject.com/Articles/499465/Simple-Windows-Service-in-Cplusplus
 */
 
-#include "service.h"
 #include <windows.h>
+#include "service.h"
 
 namespace{
 	SERVICE_STATUS        g_ServiceStatus = {0};
@@ -163,7 +162,6 @@ void InstallService(){
     }
 
     // Get a handle to the SCM database. 
- 
     schSCManager = OpenSCManager(NULL, NULL, SC_MANAGER_ALL_ACCESS);  // full access rights 
  
     if (!schSCManager) {
@@ -195,4 +193,7 @@ void InstallService(){
 
     CloseServiceHandle(schService); 
     CloseServiceHandle(schSCManager);
+}
+
+void UninstallService(){
 }

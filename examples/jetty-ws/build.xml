@@ -8,8 +8,8 @@
 	<property name="dist.dir" value="${basedir}/dist"/>
 	<property name="lib.dir" value="${dist.dir}/lib"/>
     <property name="out.file" value="${dist.dir}/${app.name}.jar"/>
-	<property name="common.lib.dir" value="../lib"/>
-	<property name="dacho-sm-api" value="../dacho-sm-api/dist"/>
+	<property name="common.lib.dir" value="../../external"/>
+	<property name="dacho-sm-api" value="../../dacho-sm-api/dist"/>
 	<property name="main.class" value="com.kiboel.nafasi.model.Main"/>
 
     <path id="master-classpath">
@@ -92,26 +92,19 @@
     	<copy file="${basedir}/service.xml" todir="${dist.dir}/"/>
     	
     	<!-- jetty.xml -->
-    	<copy file="${basedir}/jetty.xml" todir="${dist.dir}/config/jetty.xml"/>
+    	<copy file="${basedir}/jetty.xml" todir="${dist.dir}/config"/>
     	
-    	<!-- Examples -->
-    	<property name="example.context" value="/home/mawandm/Documents/Projects/jetty-ws"/>
-    	<echo>${example.context}</echo>
-    	<copy todir="${dist.dir}">
-    		<fileset dir="${example.context}">
-    			<include name="${example.context}/contexts/**"/>
-    		</fileset>
-    	</copy>
     </target>
 
-    <target name="release" description="Compile test tree java files">
-    	<zip destfile="${basedir}/${app.name}.sar"
+    <target name="release" depends="deploy" description="Compile test tree java files">
+    	<zip destfile="${basedir}/${app.name}.dar"
     	       basedir="${dist.dir}"
     	  />
     </target>
  
     <target name="clean" description="Clean output directories">
         <delete file="${out.file}"/>
+    	<delete file="${basedir}/${app.name}.dar"/>
     	<delete dir="${dist.dir}"/>
     </target>
 	

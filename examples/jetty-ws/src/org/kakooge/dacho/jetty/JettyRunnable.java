@@ -1,6 +1,5 @@
 package org.kakooge.dacho.jetty;
 
-import java.util.Enumeration;
 import java.util.logging.Logger;
 
 import org.eclipse.jetty.server.Server;

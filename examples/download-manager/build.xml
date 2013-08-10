@@ -8,8 +8,8 @@
 	<property name="dist.dir" value="${basedir}/dist"/>
 	<property name="lib.dir" value="${dist.dir}/lib"/>
     <property name="out.file" value="${dist.dir}/${app.name}.jar"/>
-	<property name="common.lib.dir" value="../lib"/>
-	<property name="dacho-sm-api" value="../dacho-sm-api/dist"/>
+	<property name="common.lib.dir" value="../../external"/>
+	<property name="dacho-sm-api" value="../../dacho-sm-api/dist"/>
 	<property name="main.class" value="org.kakooge.dacho.dm.Main"/>
 
     <path id="master-classpath">
