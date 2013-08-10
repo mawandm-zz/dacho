@@ -1,0 +1,32 @@
+<service>
+	<name>Jetty Web Service</name>
+	<class>
+		<name>org.kakooge.dacho.jetty.JettyService</name>
+		<!-- Start arguments -->
+		<params>
+			<param>
+				<name>contexts</name>
+				<value>/home/mawandm/Documents/Projects/jetty-ws/contexts</value>
+			</param>
+			<param>
+				<name>port</name>
+				<value>8983</value>
+			</param>
+		</params>
+	</class>
+	<classpath>
+		<entry>jetty-ws.jar</entry>	
+		<entry>lib/jetty-continuation-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-deploy-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-http-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-io-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-jmx-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-security-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-server-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-servlet-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-util-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-webapp-8.1.2.v20120308.jar</entry>
+    	<entry>lib/jetty-xml-8.1.2.v20120308.jar</entry>
+    	<entry>lib/servlet-api-3.0.jar</entry>
+	</classpath>
+</service>

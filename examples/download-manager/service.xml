@@ -1,0 +1,30 @@
+<service>
+	<name>Data Download Manager</name>
+	<class>
+		<name>org.kakooge.dacho.dm.service.DataManagerService</name>
+		<!-- Start arguments -->
+		<params>
+			<param>
+				<name>config</name>
+				<value>config/dm.properties</value>
+			</param>
+			<param>
+				<!-- cron4j job scheduling -->
+				<name>run.schedule</name>
+				<value>
+				'FTAS','FTAI'|59 * * * *&#xD;
+				'IXIC','NYA'|59 * * * *				
+				</value>
+			</param>
+		</params>
+	</class>
+	<classpath>
+		<entry>kakooge-dm.jar</entry>
+		<entry>lib/cron4j-2.2.5.jar</entry>	
+		<entry>lib/httpcore-4.2.1.jar</entry>
+    	<entry>lib/httpclient-4.2.1.jar</entry>
+    	<entry>lib/derbyclient.jar</entry>
+    	<entry>lib/derby.jar</entry>
+    	<entry>lib/commons-logging-1.1.1.jar</entry>
+	</classpath>
+</service>

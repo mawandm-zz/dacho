@@ -1,0 +1,5 @@
+                                      Dacho Java Service Manager LICENCE
+
+This software is copyrighted to Michael Sekamanya (myself) but really you are free to use it anyhow.
+I'm however not liable for ANY damages whatsoever that may be caused as a result of either directly or indirectly
+using the software.

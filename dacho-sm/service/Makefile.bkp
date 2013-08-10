@@ -1,0 +1,26 @@
+CFLAGS = -I/usr/lib/jvm/java-6-openjdk-amd64/include
+
+#LDFLAGS = -L../../../../../external/gsl-1.1/.libs/ \
+#	-L../../../../../external/gsl-1.1/cblas/.libs/ -lgsl -lgslcblas \
+#	-lboost_date_time
+
+build_dir=./build
+
+output = $(build_dir)/dacho
+
+CC=g++ -Wextra -Wall -g
+
+all: $^
+	$(CC) $(LDFLAGS) -o $(output) $^
+
+%.o : %.c
+	$(CC) -c $(CFLAGS) $< -O $@
+
+build_dir_rule:
+	if [ ! -d $(build_dir) ] ; then \
+		mkdir $(build_dir) ; \
+	fi
+
+.PHONY: clean
+clean:
+	rm $^ $(output)

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<project name="Dacho Service Manager API" basedir="." default="usage">
+    <property file="build.properties"/>
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="${basedir}/bin"/>
+    <property name="app.name" value="dacho-sm-api"/>
+	<property name="dist.dir" value="${basedir}/dist"/>
+	<property name="lib.dir" value="${dist.dir}/lib"/>
+	<property name="common.lib.dir" value="../lib"/>
+	<property name="version" value="1.0"/>
+	<property name="out.file" value="${dist.dir}/${app.name}-RELEASE-${version}.jar"/>
+
+	<target name="usage">
+        <echo message=""/>
+        <echo message="${app.name} build file"/>
+        <echo message="-----------------------------------"/>
+        <echo message=""/>
+        <echo message="Available targets are:"/>
+        <echo message=""/>
+        <echo message="build     --> Build the application"/>
+        <echo message="deploy    --> Deploy application as a JAR file"/>
+		<echo message="clean     --> Deploy application as a JAR file"/>
+    </target>
+
+    <target name="build" description="Compile main source tree java files">
+        <mkdir dir="${build.dir}"/>
+        <javac destdir="${build.dir}" source="1.6" target="1.6" debug="true"
+               deprecation="false" optimize="false" failonerror="true"
+	       includeantruntime="false">
+            <src path="${src.dir}"/>
+        	<classpath>
+        		<path refid="master-classpath"/>
+        		<pathelement path="${build.dir}"/>
+        	</classpath>
+        </javac>
+    </target>
+
+    <target name="deploy" depends="build" description="Deploy application as a JAR file">
+    	<mkdir dir="${dist.dir}"/>
+    	<mkdir dir="${lib.dir}"/>
+    	
+    	<echo>${dist.dir}</echo>
+    	<echo>${lib.dir}</echo>
+    	
+        <jar destfile="${out.file}">
+            <fileset dir="${build.dir}">
+                <include name="**/*.*"/>
+            </fileset>
+        </jar>
+    </target>
+
+    <target name="clean" description="Clean output directories">
+        <delete file="${out.file}"/>
+    </target>
+</project>

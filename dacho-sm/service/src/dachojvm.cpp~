@@ -1,0 +1,66 @@
+#include "dachojvm.h"
+#include <stdexcept>
+
+void DachoJVM::init(){
+
+#ifndef MAX_PATH
+#define MAX_PATH 1024
+#endif
+
+  char dclasspath[MAX_PATH];
+  char dlibraryhome[MAX_PATH];
+  char ddachohome[MAX_PATH];
+
+#if 0
+  options[0].optionString = "-Djava.compiler=NONE";				/* disable JIT */
+
+#ifndef CLASSPATH	
+#define CLASSPATH "-Djava.class.path=%s/%s"
+#endif
+
+  sprintf(dclasspath, CLASSPATH, dkaratasihome, DACHOSM_SETUP_JAR);			/* user classes */
+  options[1].optionString = dclasspath;
+  
+#ifndef JAVA_LIB_PATH
+#define JAVA_LIB_PATH
+#endif
+
+  sprintf(dlibraryhome, JAVA_LIB_PATH, dkaratasihome); /* set native library path */
+  options[2].optionString = dlibraryhome;
+  options[3].optionString = "-verbose:jni"; /* print JNI-related messages */
+#endif
+
+  vm_args.version  = JNI_VERSION_1_2;                   /* Specifies the JNI version used */
+  vm_args.options  = options;
+  vm_args.nOptions = nbOptions;
+  vm_args.ignoreUnrecognized = JNI_TRUE;                 /* JNI won't complain about unrecognized options */
+
+  if (JNI_CreateJavaVM(&jvm, (void **)&env, &vm_args)) {
+    throw std::logic_error("Failed to create the JVM");
+  }
+}
+
+void DachoJVM::destroy(){
+  jvm->DestroyJavaVM(); /* kill the JVM */
+}
+
+void DachoJVM::executeMethod(const std::string &className, const std::string &methodName, const std::string &signature){
+
+  jclass cls = env->FindClass(className.c_str());
+
+  /* find the main() method */
+  jmethodID methodId = env->GetStaticMethodID(cls, methodName.c_str(), signature.c_str());
+	
+  if( methodId == 0 )
+    throw std::logic_error("Failed to execute method"); /* error */
+	
+  env->CallStaticVoidMethod(cls, methodId, 0); /* call method() */
+}
+
+DachoJVM::DachoJVM(const std::map<std::string, std::string> &properties)
+  : properties(properties){}
+DachoJVM::~DachoJVM() throw(){}
+/*
+DachoJVM::DachoJVM(const DachoJVM &other) : properties(other.properties){}
+DachoJVM & DachoJVM::operator=(const DachoJVM &other){}
+*/

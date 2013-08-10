@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<project name="Jetty Web Service" basedir="." default="usage">
+    <property file="build.properties"/>
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="${basedir}/bin"/>
+    <property name="app.name" value="kakooge-dm"/>
+    <property name="test.dir" value="test"/>
+	<property name="dist.dir" value="${basedir}/dist"/>
+	<property name="lib.dir" value="${dist.dir}/lib"/>
+    <property name="out.file" value="${dist.dir}/${app.name}.jar"/>
+	<property name="common.lib.dir" value="../lib"/>
+	<property name="dacho-sm-api" value="../dacho-sm-api/dist"/>
+	<property name="main.class" value="org.kakooge.dacho.dm.Main"/>
+
+    <path id="master-classpath">
+    	<pathelement location="${common.lib.dir}/derby.jar"/>
+    	<pathelement location="${common.lib.dir}/derbyclient.jar"/>
+    	<pathelement location="${common.lib.dir}/httpclient-4.2.1.jar"/>
+    	<pathelement location="${common.lib.dir}/httpcore-4.2.1.jar"/>
+    	<pathelement location="${common.lib.dir}/cron4j-2.2.5.jar"/>
+    	<pathelement location="${common.lib.dir}/commons-logging-1.1.1.jar"/>
+    </path>
+
+    <target name="usage">
+        <echo message=""/>
+        <echo message="${app.name} build file"/>
+        <echo message="-----------------------------------"/>
+        <echo message=""/>
+        <echo message="Available targets are:"/>
+        <echo message=""/>
+        <echo message="build     --> Build the application"/>
+        <echo message="deploy    --> Deploy application as a SAR file"/>
+    	<echo message="release   --> Deploy application as a JAR file"/>
+    </target>
+
+    <target name="build" description="Compile main source tree java files">
+        <mkdir dir="${build.dir}"/>
+        <javac destdir="${build.dir}" source="1.6" target="1.6" debug="true"
+               deprecation="false" optimize="false" failonerror="true"
+	       includeantruntime="false">
+            <src path="${src.dir}"/>
+        	<classpath>
+        		<path refid="master-classpath"/>
+        		<pathelement path="${build.dir}"/>
+        		<pathelement path="${dacho-sm-api}/dacho-sm-api-RELEASE-1.0.jar"/>
+        	</classpath>
+        </javac>
+    </target>
+
+    <target name="deploy" depends="build" description="Deploy application as a JAR file">
+    	<mkdir dir="${dist.dir}"/>
+    	<mkdir dir="${dist.dir}/config"/>
+    	<mkdir dir="${lib.dir}"/>
+    	
+    	<echo>${dist.dir}</echo>
+    	<echo>${lib.dir}</echo>
+    	
+    	<!-- fileset from which to generate the manifest file -->
+        <fileset dir="${dist.dir}/lib" id="lib.files">
+          <include name="**/*.jar"/>
+        </fileset>
+        <pathconvert targetos="unix" pathsep=" " property="class.path.files" refid="lib.files">
+        	<map from="${dist.dir}/" to=""/>
+        </pathconvert>
+
+    	<!-- Generate an executable jar file -->
+        <jar destfile="${out.file}">
+            <fileset dir="${build.dir}">
+                <include name="**/*.*"/>
+            </fileset>
+    		<manifest>
+    			<attribute name="Built-By" value="${user.name} (Kiboel Limited)"/>
+    		    <attribute name="Main-Class" value="${main.class}"/>
+    		    <attribute name="Class-Path" value="${class.path.files}"/>
+    		</manifest>        	
+        </jar>
+
+    	<!-- the lib folders -->
+        <copy todir="${lib.dir}" flatten="true">
+        	<path>
+        		<path refid="master-classpath"/>
+        	</path>
+        </copy>
+    	
+    	<!-- service.xml -->
+    	<copy file="${basedir}/service.xml" todir="${dist.dir}/"/>
+    	<copy file="${basedir}/dm.properties" todir="${dist.dir}/config"/>
+    	<mkdir dir="${dist.dir}/download-db"/>
+        <copy todir="${dist.dir}/download-db">
+        	<fileset dir="${basedir}/download-db"/>
+        </copy>
+    </target>
+
+    <target name="release" depends="deploy" description="Compile test tree java files">
+    	<zip destfile="${basedir}/${app.name}.dar"
+    	       basedir="${dist.dir}"
+    	  />
+    </target>
+ 
+    <target name="clean" description="Clean output directories">
+        <delete file="${out.file}"/>
+    	<delete dir="${dist.dir}/lib"/>
+    </target>
+	
+</project>

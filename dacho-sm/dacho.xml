@@ -1,0 +1,20 @@
+<dacho>
+	<service>
+	<!-- This can be a relative path (relative to to DACHO_HOME or an absolute path -->
+		<home>services/</home>
+	</service>
+	
+	<!-- Service Management Console Application -->
+	<jetty>
+		<!-- Enable/disable the service console web application -->
+		<enable>true</enable>
+		<!-- This is the port -->
+		<port>31609</port>
+		<!-- Not implemented yet -->
+		<!-- 
+		<realm>
+			<password></password>
+		</realm>
+		 -->
+	</jetty>
+</dacho>

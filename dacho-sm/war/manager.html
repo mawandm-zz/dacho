@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title>Dacho Service Manager</title>
+		<script type="text/javascript"></script>
+			<style>
+		body { font-family:Arial, Verdana; font-size: 10pt;}
+		h1 {border-bottom: 1px solid #a1a1a1; padding-bottom: 5px; color: #3d3d3d;  font-family:Arial, Verdana; font-size: 25pt;}
+		h2 {padding-bottom: 5px; color: #5e5e5e; font-family:Arial, Verdana; font-size: 20pt;}
+		td { font-family:Arial, Verdana; font-size: 10pt;}
+		</style>
+	</head>
+	<body>
+		<table align=center width="100%" cellspacing=0 cellpadding=5>
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td><h1>Dacho Service Manager</h1></td><td align=right width=1><img src="images/dacho-icon.png"/></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td align=left><h2>Manage Dacho Services</h2></td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" border=1 cellspacing=0 cellpadding=2>
+						<thead>
+							<tr>
+								<th align="left" style="background-color: #93c7ef">Name</th>
+								<th align="left" style="background-color: #93c7ef">Description</th>
+								<th align="left" style="background-color: #93c7ef" width=1>Status</th>
+								<th align="left" style="background-color: #93c7ef">Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align=left>Yahoo Price Downloads</td>
+								<td align=left>Scheduled downloading end of period prices</td>
+								<td align=left>Running</td>
+								<td align=left width=1>
+									<table border=0 cellpadding=2>
+										<tr>
+											<td width=1><button type="button">Start</button></td>
+											<td width=1><button type="button">Stop</button></td>
+											<td width=1>Logs</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td align=left>Name</td>
+								<td align=left>Description</td>
+								<td align=left>Running</td>
+								<td align=left width=1>
+									<table border=0 cellpadding=2 cellspacing=0>
+										<tr>
+											<td width=1><button type="button">Start</button></td>
+											<td width=1><button type="button">Stop</button></td>
+											<td width=1><button type="button">Remove</button></td>
+											<td width=1><button type="button">Logs</button></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td align=left>Name</td>
+								<td align=left>Description</td>
+								<td align=left>Stopped</td>
+								<td>
+									<table border=0 cellpadding=2 cellspacing=0>
+										<tr>
+											<td width=1><button type="button">Start</button></td>
+											<td width=1><button type="button">Stop</button></td>
+											<td width=1><button type="button">Remove</button></td>
+											<td width=1><button type="button">Logs</button></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td align=left>Name</td>
+								<td align=left>Description</td>
+								<td align=left>Running</td>
+								<td>
+									<table border=0 cellpadding=2 cellspacing=0>
+										<tr>
+											<td width=1><button type="button">Start</button></td>
+											<td width=1><button type="button">Stop</button></td>
+											<td width=1><button type="button">Remove</button></td>
+											<td width=1><button type="button">Logs</button></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td align=left>Name</td>
+								<td align=left>Description</td>
+								<td align=left>Status</td>
+								<td>
+									<table border=0 cellpadding=2 cellspacing=0>
+										<tr>
+											<td width=1><button type="button">Start</button></td>
+											<td width=1><button type="button">Stop</button></td>
+											<td width=1><button type="button">Remove</button></td>
+											<td width=1><button type="button">Logs</button></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td align=left>&nbsp;</td>
+			</tr>			
+			<tr>
+				<td align=left><h2>Deploy a Service</h2></td>
+			</tr>
+			<tr>
+				<td align=left>
+					<form action="">
+						<table width="100%" align=center border=1 cellpadding=2 cellspacing=0>
+							<thead>
+								<tr style="background-color: #93c7ef">
+									<th align=left>Select a *.dar file to deploy</th>
+								</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>
+									<table align=center border=0 cellpadding=2 cellspacing=0>
+										<tr>
+											<td align=left width=1>Context&nbsp;name(mandatory)</td>
+											<td align=left><input type=text style="width:100%"/></td>
+										</tr>									
+										<tr>
+											<td align=left width=1>Select&nbsp;any&nbsp;zipped&nbsp;file:</td>
+											<td align=left><input type=file style="width:100%"/></td>
+										</tr>
+										<tr>
+											<td align=left width=1>&nbsp;</td>
+											<td align=left><input type="submit" value="Deploy" /></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td align=center>
+				Copyright (c) Michael Sekamanya, 2013
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
