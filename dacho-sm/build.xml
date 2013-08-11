@@ -89,8 +89,9 @@
     	<copy file="${basedir}/logging.properties" todir="${dist.dir}/config"/>
     	<copy file="${basedir}/djvm.properties" todir="${dist.dir}/config"/>
     	
-    	<!-- README -->
+    	<!-- README/LICENCE -->
     	<copy file="${basedir}/README.txt" todir="${dist.dir}/"/>
+    	<copy file="${basedir}/LICENCE.txt" todir="${dist.dir}/"/>
 
     	<!-- Binaries -->
     	<copy toDir="${dist.dir}/bin" flatten="true">

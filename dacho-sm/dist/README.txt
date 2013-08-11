@@ -29,7 +29,9 @@ The structure of the distribution is as
 + README.txt
 + LICENCE.txt
 
-My objective was it make it really easy to use and I really think it is
+NOTE: The Windows service and unix daemon expect the environment variable JAVA_HOME to be set and because the JVM is loaded in server mode, it expects to find the %JAVA_HOME%\jre\bin\server\jvm.dll or %JAVA_HOME%\bin\server\jvm.dll file
+
+My objective was it make it really easy to use and I really think it is. This all you have to do. You could look at the examples provided with this distribution to get a better understanding of the implementation of a service.
 2.1. Extend ServiceBase
 2.2. Implement OnStart, OnStop
 2.3. In the OnStart, start a thread
