@@ -1,9 +1,9 @@
-dacho
-=====
-
 The Dacho Java Services Manager
+-------------------------------
 
 Introduction
+------------
+
 Dacho is a java services container. It is a lightweight container that is able to
 host any kind of java process. This could be a webservice such as Jetty, a download maanger
 such as the download manager example. I currently use the dacho services manager for;
