@@ -1,9 +1,9 @@
 #ifndef _CONFIG_H
 #define _CONFIG_H
 
-#include <map>
+#include <vector>
 #include <string>
 
-void GetConfiguration(std::map<std::string, std::string> &properties);
+void GetConfiguration(std::vector<std::string> &properties);
 
 #endif

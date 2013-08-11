@@ -3,6 +3,7 @@ Reference:
 http://msdn.microsoft.com/en-us/library/bb540476%28v=VS.85%29.aspx
 */
 
+#include <sstream>
 #include <windows.h>
 #include "service.h"
 
@@ -13,7 +14,15 @@ namespace{
 	HANDLE  hEventSource;
 	Daemon *serviceDaemon;
 
-	VOID WINAPI ServiceCtrlHandler (DWORD CtrlCode)
+	char messageBuffer[516];
+
+	void LOG(const char *msg, int msglen, int type){
+		memset(messageBuffer, 0, sizeof messageBuffer);
+		strncpy(messageBuffer, msg, sizeof(messageBuffer)-1);
+		ReportEvent(hEventSource, type, 0, 0, NULL, 2, 0, (LPCSTR*)&messageBuffer, NULL);
+	}
+
+	void WINAPI ServiceCtrlHandler (DWORD CtrlCode)
 	{
 		switch (CtrlCode) {
 		 case SERVICE_CONTROL_STOP :
@@ -27,8 +36,7 @@ namespace{
 			g_ServiceStatus.dwWin32ExitCode = 0;
 			g_ServiceStatus.dwCheckPoint = 4;
 	 
-			if (!SetServiceStatus (g_StatusHandle, &g_ServiceStatus))
-				OutputDebugString("My Sample Service: ServiceCtrlHandler: SetServiceStatus returned error");
+			SetServiceStatus (g_StatusHandle, &g_ServiceStatus);
 	 
 			// This will signal the worker thread to start shutting down
 			SetEvent (g_ServiceStopEvent);
@@ -40,9 +48,6 @@ namespace{
 
 	VOID WINAPI ServiceMain (DWORD argc, LPTSTR *argv)
 	{
-		DWORD Status = E_FAIL;
-		const char * msg = "Starting service";
-	 
 		// Register our service control handler with the SCM
 		g_StatusHandle = RegisterServiceCtrlHandler (SERVICE_NAME, ServiceCtrlHandler);
 
@@ -54,7 +59,9 @@ namespace{
 		g_ServiceStatus.dwCurrentState = SERVICE_START_PENDING;
 
 		if (!SetServiceStatus (g_StatusHandle , &g_ServiceStatus)){
-			OutputDebugString("My Sample Service: ServiceMain: SetServiceStatus returned error");
+			const char * msg = "Error setting starting status";
+			LOG(msg, strlen(msg), EVENTLOG_ERROR_TYPE);
+			goto EXIT;
 		}
 	 
 		// Create a service stop event to wait on later
@@ -66,10 +73,8 @@ namespace{
 			g_ServiceStatus.dwWin32ExitCode = GetLastError();
 			g_ServiceStatus.dwCheckPoint = 1;
 	 
-			if (!SetServiceStatus (g_StatusHandle, &g_ServiceStatus)){
-				OutputDebugString("My Sample Service: ServiceMain: SetServiceStatus returned error");
-			}
-			return; 
+			SetServiceStatus (g_StatusHandle, &g_ServiceStatus);
+			goto EXIT;
 		}    
 	    
 		// Tell the service controller we are started
@@ -79,28 +84,33 @@ namespace{
 		g_ServiceStatus.dwCheckPoint = 0;
 	 
 		if (!SetServiceStatus (g_StatusHandle, &g_ServiceStatus)){
-			msg = "My Sample Service: ServiceMain: SetServiceStatus returned error";
-			ReportEvent(hEventSource, EVENTLOG_ERROR_TYPE, 0, 0, NULL, 2, 0, &msg, NULL);                // no raw data
-			return;
+			//ReportEvent(hEventSource, EVENTLOG_ERROR_TYPE, 0, 0, NULL, 2, 0, &ERROR_STARTING, NULL);
+			const char * msg = "Error setting starting status";
+			LOG(msg, strlen(msg), EVENTLOG_ERROR_TYPE);
+			goto EXIT;
 		}
-	 
-		
-		ReportEvent(hEventSource, EVENTLOG_SUCCESS, 0, 0, NULL, 2, 0, &msg, NULL);                // no raw data
 
 		try{
+			//ReportEvent(hEventSource, EVENTLOG_SUCCESS, 0, 0, NULL, 2, 0, &STARTING_MESSAGE, NULL);
+			const char * msg = "Stopping service";
+			LOG(msg, strlen(msg), EVENTLOG_SUCCESS);
 			serviceDaemon->Start();
 		}catch(std::exception &e){
-			msg = "My Sample Service: ServiceMain: SetServiceStatus returned error when starting";
-			ReportEvent(hEventSource, EVENTLOG_ERROR_TYPE, 0, 0, NULL, 2, 0, &msg, NULL);                // no raw data
+			//ReportEvent(hEventSource, EVENTLOG_ERROR_TYPE, 0, 0, NULL, 2, 0, &ERROR_STARTING, NULL);
+			LOG(e.what(), strlen(e.what()), EVENTLOG_ERROR_TYPE);
 			goto EXIT;
 		}
 		//  Periodically check if the service has been requested to stop
 		for (;WaitForSingleObject(g_ServiceStopEvent, 0) != WAIT_OBJECT_0; Sleep(5000)); 
 
 		try{
+			//ReportEvent(hEventSource, EVENTLOG_SUCCESS, 0, 0, NULL, 2, 0, &STOPPING_MESSAGE, NULL);
+			const char * msg = "Starting service";
+			LOG(msg, strlen(msg), EVENTLOG_SUCCESS);
 			serviceDaemon->Stop();
 		}catch(std::exception &e){
-			OutputDebugString("My Sample Service: ServiceMain: SetServiceStatus returned error when stopping");
+			LOG(e.what(), strlen(e.what()), EVENTLOG_ERROR_TYPE);
+			//ReportEvent(hEventSource, EVENTLOG_ERROR_TYPE, 0, 0, NULL, 2, 0, &ERROR_STARTING, NULL);
 		}
 	    
 EXIT:
@@ -116,9 +126,7 @@ EXIT:
 		g_ServiceStatus.dwWin32ExitCode = 0;
 		g_ServiceStatus.dwCheckPoint = 3;
 	 
-		if (!SetServiceStatus (g_StatusHandle, &g_ServiceStatus)){
-			OutputDebugString("My Sample Service: ServiceMain: SetServiceStatus returned error");
-		}
+		SetServiceStatus (g_StatusHandle, &g_ServiceStatus);
 	} 
 }
 

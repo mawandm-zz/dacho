@@ -12,7 +12,7 @@
 				<!-- cron4j job scheduling -->
 				<name>run.schedule</name>
 				<value>
-				'FTAS','FTAI'|*/5 * * * *&#xD;
+				'FTAS','FTAI'|59 * * * *&#xD;
 				'IXIC','NYA'|59 * * * *				
 				</value>
 			</param>

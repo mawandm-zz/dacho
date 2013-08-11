@@ -98,28 +98,22 @@
     	    <include name="run" />
     	  	<include name="run.bat" />
     	  	<include name="service/build/unix/dacho" />
-    	  	<include name="service/build/vs2008/Debug/dacho.exe" />
-    	  	<!-- Install/Uninstall script
-    	  	<include name="install.bat" />
-    	  	<include name="uninstall.bat" />
-    	  	-->
+    	  	<include name="service/build/vs2008/Release/dacho.exe" />
+    	  	<!-- Install/Uninstall script -->
+    	  	<include name="installService.bat" />
+    	  	<include name="uninstallService.bat" />
+
     	  </fileset>
     	</copy>
-    	<!--
-    	<copy file="${basedir}/run.bat" todir="${dist.dir}/bin"/>
-    	<copy file="${basedir}/run.sh" todir="${dist.dir}/bin"/>
-    	<copy file="${basedir}/service/build/unix/dacho" todir="${dist.dir}/bin"/>
-    	<copy file="${basedir}/service/build/unix/dacho" todir="${dist.dir}/bin"/>
-    	-->
     </target>
 
-	<!-- Deploy samples -->
+	<!-- Deploy samples
     <target name="deploysamples" depends="deploy" description="Copy example services">
     	<mkdir dir="${dist.dir}/services/ddm"/>
         <copy todir="${dist.dir}/services/ddm">
         	<fileset dir="${ddm-service}"/>
         </copy>
-    	<!--
+
     	<mkdir dir="${dist.dir}/services/jetty"/>
         <copy todir="${dist.dir}/services/jetty">
         	<fileset dir="${jetty-service}"/>
@@ -129,11 +123,11 @@
         <copy todir="${dist.dir}/services/derby">
         	<fileset dir="${derby-service}"/>
         </copy>
-        -->
-    </target>
 
+    </target>
+ -->
     <target name="release" depends="deploy" description="Compile test tree java files">
-    	<zip destfile="${basedir}/${app.name}.zip"
+    	<zip destfile="${basedir}/../dist/${app.name}.zip"
     	       basedir="${dist.dir}"
     	  />
     </target>

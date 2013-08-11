@@ -1,0 +1,1554 @@
+10-Aug-2013 22:31:45 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+10-Aug-2013 22:31:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+10-Aug-2013 22:31:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+10-Aug-2013 22:31:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm
+10-Aug-2013 22:31:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+10-Aug-2013 22:31:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+10-Aug-2013 22:39:17 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+10-Aug-2013 22:39:17 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+10-Aug-2013 22:39:17 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+10-Aug-2013 22:39:17 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm
+10-Aug-2013 22:39:17 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+10-Aug-2013 22:39:17 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:23:36 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:23:36 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:23:36 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:23:36 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm
+11-Aug-2013 05:23:36 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:23:36 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:32:07 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:32:07 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:32:07 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:32:07 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm
+11-Aug-2013 05:32:07 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:32:07 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:39:43 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:39:43 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:39:43 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:39:43 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm
+11-Aug-2013 05:39:43 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:39:43 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:42:02 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:42:03 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:42:03 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:42:03 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/bin/../services/kakooge-dm
+11-Aug-2013 05:42:03 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:42:03 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:45:34 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Initializing the services manager
+11-Aug-2013 05:45:34 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:45:34 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:45:34 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:45:34 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/bin/../services/kakooge-dm
+11-Aug-2013 05:45:34 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:45:34 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:49:08 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Initializing the services manager
+11-Aug-2013 05:49:08 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:49:08 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:49:08 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:49:08 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=../services/kakooge-dm
+11-Aug-2013 05:49:08 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:49:08 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:50:50 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Initializing the services manager
+11-Aug-2013 05:50:51 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:50:51 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:50:51 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:50:51 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=../services/kakooge-dm
+11-Aug-2013 05:50:51 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:50:51 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:51:21 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Destroying the services manager
+11-Aug-2013 05:53:02 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 05:53:02 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:53:02 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:53:02 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:53:02 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=../services/kakooge-dm
+11-Aug-2013 05:53:02 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:53:02 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:54:37 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 05:54:38 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:54:38 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:54:38 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:54:38 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/bin/../services/kakooge-dm
+11-Aug-2013 05:54:38 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:54:38 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 05:54:51 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 05:56:01 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 05:56:01 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
+11-Aug-2013 05:56:01 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 05:56:01 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 05:56:01 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm
+11-Aug-2013 05:56:01 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 05:56:01 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 06:57:12 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 06:57:12 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 06:57:13 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 06:57:13 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 06:57:13 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 06:57:13 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 06:57:13 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 06:59:34 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 06:59:34 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 06:59:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 06:59:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 06:59:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 06:59:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 06:59:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 06:59:55 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 07:17:34 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 07:17:34 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 07:17:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 07:17:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 07:17:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 07:17:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 07:17:35 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 07:17:45 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 07:17:45 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 07:18:19 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 07:18:19 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 07:18:19 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 07:18:19 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 07:18:19 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 07:18:19 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 07:18:19 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 07:18:30 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 07:18:30 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 07:29:25 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 07:29:25 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 07:29:26 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 07:29:26 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 07:29:26 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 07:29:26 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 07:29:26 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 07:30:11 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 07:30:11 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 07:50:44 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 07:50:44 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 07:50:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 07:50:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 07:50:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 07:50:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 07:50:45 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGS.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASD.L",0.00,"N/A","2:-539pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AU.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVE.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRNE.L",44.00,"8/8/2013","4:00pm",-1.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRWM.L",497.00,"8/8/2013","4:00pm",+15.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAEL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHTR.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHY.L",158.00,"3/28/2012","4:00pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:32 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CKSN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"3DD.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ABH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACZ.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADI.L",0.125,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADS.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEC.L",3.625,"8/2/2013","6:10am",-0.625,3.75,N/A,5.00,25000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEO.L",19.00,"8/9/2013","3:56am",+0.50,18.50,N/A,18.00,6000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AER.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFCR.L",2.501,"8/9/2013","11:13am",-0.124,2.625,N/A,2.89,18736'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFN.L",3.45,"8/9/2013","5:50am",-0.025,3.475,N/A,3.51,47500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGY.L",9.00,"8/9/2013","11:37am",+0.125,8.875,N/A,9.55,178571'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AHG.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AIEA.L",10.25,"8/9/2013","5:01am",+0.625,9.625,N/A,9.30,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALBA.L",0.15,"8/5/2013","5:03am",-0.06,0.215,N/A,0.171,373504'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:37 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMBR.L",11.38,"8/9/2013","5:57am",-0.12,11.50,N/A,11.25,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMEI.L",0.002,"7/31/2013","10:23am",-0.0002,0.0022,N/A,0.0022,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANGM.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANR.L",1.42,"8/9/2013","11:06am",-0.03,1.45,N/A,0.85,3900833'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AOR.L",58.00,"8/9/2013","7:41am",+13.00,45.00,N/A,N/A,16500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARDN.L",47.54,"8/7/2013","12:15pm",-1.96,48.50,N/A,42.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASQ1.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AST.L",0.8485,"8/9/2013","10:50am",+0.1485,0.70,N/A,0.655,1095162'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASTO.L",330.00,"8/9/2013","9:00am",-12.50,342.50,N/A,N/A,91'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ATH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUK.L",2.515,"8/9/2013","2:51am",-0.36,2.875,N/A,2.60,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUR.L",1.75,"8/9/2013","8:11am",-0.125,1.875,N/A,1.75,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AURR.L",32.00,"8/9/2013","11:35am",-0.125,32.125,N/A,31.25,68475'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVIA.L",7.25,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVR.L",10.25,"8/9/2013","12:22pm",0.00,10.25,N/A,N/A,350000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVS.L",217.90,"8/9/2013","7:19am",+2.90,215.00,N/A,220.00,2350'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BBE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BEH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGBL.L",7.875,"8/9/2013","9:50am",+1.00,6.75,N/A,4.00,278405'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BILL.L",3.0025,"8/7/2013","3:06am",-0.2475,3.00,N/A,3.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BJU.L",250.80,"8/8/2013","11:09am",-0.70,251.50,N/A,252.00,3316'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BKY.L",18.03,"8/7/2013","11:17am",-0.345,18.375,N/A,17.50,1500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMT.L",555.75,"8/2/2013","7:02am",+8.25,552.50,N/A,539.35,1000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRU.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BSP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"C21.L",5.672,"8/9/2013","10:59am",-0.453,6.125,N/A,10.37,751431'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAO.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFU.L",2.5003,"8/9/2013","9:17am",-0.1247,2.625,2.93,N/A,176354'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFX.L",275.00,"8/9/2013","4:56am",+12.50,262.50,259.70,N/A,4071'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGNR.L",1.901,"8/9/2013","9:39am",-0.049,1.95,1.905,N/A,762201'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHA.L",0.4098,"8/9/2013","11:30am",+0.0498,0.45,N/A,N/A,52907680'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGV",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHG",0.00,"N/A","10:16am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 07:59:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIG-C",8.85,"8/7/2013","12:55pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AACC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACNB",17.00,"8/8/2013","4:00pm",0.00,17.00,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALLB",14.95,"8/7/2013","1:49pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALNC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALRN",0.11,"8/8/2013","12:58pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTE",0.00,"N/A","10:57pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTI",2.1472,"8/8/2013","3:04pm",0.00,2.15,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMCF",0.63,"8/9/2013","3:33pm",0.00,N/A,0.63,0.6199,12054'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMPL",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANCB",17.99,"8/9/2013","3:58pm",+0.49,N/A,17.99,17.99,100'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANDA",10.05,"8/1/2013","9:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANNB",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP",1.25,"7/31/2013","1:39pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"APKT",0.00,"N/A","8:45pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCW",4.81,"8/8/2013","10:51am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASBB",17.01,"8/7/2013","9:30am",0.00,16.94,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVCA",0.00,"N/A","1:45pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BCDS",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BDMS",18.22,"8/8/2013","11:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BELFA",17.00,"8/8/2013","3:54pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BFLY",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIOC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMTI",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BOVA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BPAX",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTFG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BWINA",24.32,"8/2/2013","2:29pm",0.00,25.65,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CBOU",0.00,"12/391/39096","1:06pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CEDC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGEI",10.01,"2/22/2013","3:46pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:00:36 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIZN",18.25,"8/8/2013","2:00pm",0.00,18.30,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 08:02:40 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 08:02:40 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 10:01:47 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 10:01:47 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 10:01:47 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 10:01:47 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 10:01:47 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 10:01:47 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 10:01:47 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 10:23:58 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 10:23:58 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 13:51:46 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 13:51:50 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 13:55:53 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 13:55:53 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 13:55:54 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 13:55:54 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 13:55:54 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 13:55:54 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 13:55:54 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 13:56:15 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 13:56:15 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 14:18:55 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 14:18:55 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 14:18:56 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 14:18:56 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 14:18:56 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 14:18:56 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 14:18:56 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 14:21:11 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 14:21:11 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 14:21:11 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 14:21:11 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 14:21:11 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 14:21:11 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 14:21:11 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 14:51:40 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 14:51:40 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 14:51:40 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 14:51:40 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 14:51:40 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 14:51:40 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 14:51:40 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 14:52:46 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 14:52:46 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 15:05:41 org.kakooge.dacho.loader.BootstrapDaemon initServiceManager
+INFO: Starting the services manager and all services
+11-Aug-2013 15:05:41 org.kakooge.dacho.loader.ServiceController makeService
+INFO: Launching service from descriptor 'C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm\service.xml'
+11-Aug-2013 15:05:41 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
+11-Aug-2013 15:05:41 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: TEST Property1
+11-Aug-2013 15:05:41 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: service.home=C:\Users\mawandm\Documents\Projects\kakooge\dacho\dacho-sm\dist\services\kakooge-dm
+11-Aug-2013 15:05:41 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: config=config/dm.properties
+11-Aug-2013 15:05:41 org.kakooge.dacho.dm.service.DataManagerService OnStart
+INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGS.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASD.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AU.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVE.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRNE.L",44.00,"8/8/2013","4:00pm",-1.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRWM.L",497.00,"8/8/2013","4:00pm",+15.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAEL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHTR.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHY.L",158.00,"3/28/2012","4:00pm",0.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:56 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CKSN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"3DD.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ABH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACZ.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADI.L",0.125,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADS.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEC.L",3.625,"8/2/2013","6:10am",-0.625,3.75,N/A,5.00,25000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEO.L",19.00,"8/9/2013","3:56am",+0.50,18.50,N/A,18.00,6000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AER.L",0.00,"N/A","-10:57am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFCR.L",2.501,"8/9/2013","11:13am",-0.124,2.625,N/A,2.89,18736'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFN.L",3.45,"8/9/2013","5:50am",-0.025,3.475,N/A,3.51,47500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGY.L",9.00,"8/9/2013","11:37am",+0.125,8.875,N/A,9.55,178571'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AHG.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AIEA.L",10.25,"8/9/2013","5:01am",+0.625,9.625,N/A,9.30,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALBA.L",0.15,"8/5/2013","5:03am",-0.06,0.215,N/A,0.171,373504'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMBR.L",11.38,"8/9/2013","5:57am",-0.12,11.50,N/A,11.25,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMEI.L",0.002,"7/31/2013","10:23am",-0.0002,0.0022,N/A,0.0022,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANGM.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANR.L",1.42,"8/9/2013","11:06am",-0.03,1.45,N/A,0.85,3900833'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AOR.L",58.00,"8/9/2013","7:41am",+13.00,45.00,N/A,N/A,16500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARDN.L",47.54,"8/7/2013","12:15pm",-1.96,48.50,N/A,42.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASQ1.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AST.L",0.8485,"8/9/2013","10:50am",+0.1485,0.70,N/A,0.655,1095162'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASTO.L",330.00,"8/9/2013","9:00am",-12.50,342.50,N/A,N/A,91'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ATH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUK.L",2.515,"8/9/2013","2:51am",-0.36,2.875,N/A,2.60,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUR.L",1.75,"8/9/2013","8:11am",-0.125,1.875,N/A,1.75,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AURR.L",32.00,"8/9/2013","11:35am",-0.125,32.125,N/A,31.25,68475'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVIA.L",7.25,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVR.L",10.25,"8/9/2013","12:22pm",0.00,10.25,N/A,N/A,350000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVS.L",217.90,"8/9/2013","7:19am",+2.90,215.00,N/A,220.00,2350'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BBE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BEH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGBL.L",7.875,"8/9/2013","9:50am",+1.00,6.75,N/A,4.00,278405'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BILL.L",3.0025,"8/7/2013","3:06am",-0.2475,3.00,N/A,3.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BJU.L",250.80,"8/8/2013","11:09am",-0.70,251.50,N/A,252.00,3316'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BKY.L",18.03,"8/7/2013","11:17am",-0.345,18.375,N/A,17.50,1500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMT.L",555.75,"8/2/2013","7:02am",+8.25,552.50,N/A,539.35,1000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRU.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BSP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"C21.L",5.672,"8/9/2013","10:59am",-0.453,6.125,N/A,10.37,751431'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAO.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFU.L",2.5003,"8/9/2013","9:17am",-0.1247,2.625,2.93,N/A,176354'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFX.L",275.00,"8/9/2013","4:56am",+12.50,262.50,259.70,N/A,4071'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGNR.L",1.901,"8/9/2013","9:39am",-0.049,1.95,1.905,N/A,762201'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:00:59 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHA.L",0.4098,"8/9/2013","11:30am",+0.0498,0.45,N/A,N/A,52907680'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:02:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGV",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:02:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:02:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIG-C",8.85,"8/7/2013","12:55pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AACC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACNB",17.00,"8/8/2013","4:00pm",0.00,17.00,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALLB",14.95,"8/7/2013","1:49pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALNC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALRN",0.11,"8/8/2013","12:58pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTE",0.00,"N/A","9:-50am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTI",2.1472,"8/8/2013","3:04pm",0.00,2.15,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMCF",0.63,"8/9/2013","3:33pm",0.00,N/A,0.63,0.6199,12054'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMPL",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANCB",17.99,"8/9/2013","3:58pm",+0.49,N/A,17.99,17.99,100'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANDA",10.05,"8/1/2013","9:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANNB",0.00,"N/A","6:-596pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP",1.25,"7/31/2013","1:39pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"APKT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCT",0.00,"8/348/56030","4:14am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCW",4.81,"8/8/2013","10:51am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASBB",17.01,"8/7/2013","9:30am",0.00,16.94,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVCA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BCDS",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BDMS",18.22,"8/8/2013","11:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BELFA",17.00,"8/8/2013","3:54pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BFLY",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIOC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMTI",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BOVA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BPAX",0.00,"N/A","7:52am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTFG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BWINA",24.32,"8/2/2013","2:29pm",0.00,25.65,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CBOU",0.00,"N/A","5:-529pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:42 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CEDC",0.00,"N/A","2:-528pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:43 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGEI",10.01,"2/22/2013","3:46pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 16:04:43 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIZN",18.25,"8/8/2013","2:00pm",0.00,18.30,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:34 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGS.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:34 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASD.L",0.00,"8/9/2013","5:55pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AU.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVE.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRNE.L",44.00,"8/8/2013","4:00pm",-1.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRWM.L",497.00,"8/8/2013","4:00pm",+15.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAEL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHTR.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHY.L",158.00,"3/28/2012","4:00pm",0.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:00:35 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CKSN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"3DD.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ABH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACZ.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADI.L",0.125,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADS.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEC.L",3.625,"8/2/2013","6:10am",-0.625,3.75,N/A,5.00,25000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEO.L",19.00,"8/9/2013","3:56am",+0.50,18.50,N/A,18.00,6000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AER.L",0.00,"N/A","-17:02am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFCR.L",2.501,"8/9/2013","11:13am",-0.124,2.625,N/A,2.89,18736'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFN.L",3.45,"8/9/2013","5:50am",-0.025,3.475,N/A,3.51,47500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGY.L",9.00,"8/9/2013","11:37am",+0.125,8.875,N/A,9.55,178571'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AHG.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AIEA.L",10.25,"8/9/2013","5:01am",+0.625,9.625,N/A,9.30,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALBA.L",0.15,"8/5/2013","5:03am",-0.06,0.215,N/A,0.171,373504'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMBR.L",11.38,"8/9/2013","5:57am",-0.12,11.50,N/A,11.25,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMEI.L",0.002,"7/31/2013","10:23am",-0.0002,0.0022,N/A,0.0022,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANGM.L",0.00,"N/A","11:30pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANR.L",1.42,"8/9/2013","11:06am",-0.03,1.45,N/A,0.85,3900833'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AOR.L",58.00,"8/9/2013","7:41am",+13.00,45.00,N/A,N/A,16500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARDN.L",47.54,"8/7/2013","12:15pm",-1.96,48.50,N/A,42.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASQ1.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AST.L",0.8485,"8/9/2013","10:50am",+0.1485,0.70,N/A,0.655,1095162'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASTO.L",330.00,"8/9/2013","9:00am",-12.50,342.50,N/A,N/A,91'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ATH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUK.L",2.515,"8/9/2013","2:51am",-0.36,2.875,N/A,2.60,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUR.L",1.75,"8/9/2013","8:11am",-0.125,1.875,N/A,1.75,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AURR.L",32.00,"8/9/2013","11:35am",-0.125,32.125,N/A,31.25,68475'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVIA.L",7.25,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVR.L",10.25,"8/9/2013","12:22pm",0.00,10.25,N/A,N/A,350000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVS.L",217.90,"8/9/2013","7:19am",+2.90,215.00,N/A,220.00,2350'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BBE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BEH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGBL.L",7.875,"8/9/2013","9:50am",+1.00,6.75,N/A,4.00,278405'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BILL.L",3.0025,"8/7/2013","3:06am",-0.2475,3.00,N/A,3.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BJU.L",250.80,"8/8/2013","11:09am",-0.70,251.50,N/A,252.00,3316'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BKY.L",18.03,"8/7/2013","11:17am",-0.345,18.375,N/A,17.50,1500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMT.L",555.75,"8/2/2013","7:02am",+8.25,552.50,N/A,539.35,1000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRU.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BSP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"C21.L",5.672,"8/9/2013","10:59am",-0.453,6.125,N/A,10.37,751431'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAO.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFU.L",2.5003,"8/9/2013","9:17am",-0.1247,2.625,2.93,N/A,176354'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFX.L",275.00,"8/9/2013","4:56am",+12.50,262.50,259.70,N/A,4071'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGNR.L",1.901,"8/9/2013","9:39am",-0.049,1.95,1.905,N/A,762201'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:01:05 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHA.L",0.4098,"8/9/2013","11:30am",+0.0498,0.45,N/A,N/A,52907680'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:02:16 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGV",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:02:16 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:02:16 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIG-C",8.85,"8/7/2013","12:55pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AACC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACNB",17.00,"8/8/2013","4:00pm",0.00,17.00,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALLB",14.95,"8/7/2013","1:49pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALNC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALRN",0.11,"8/8/2013","12:58pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTE",0.00,"3/28/30413","1:01am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTI",2.1472,"8/8/2013","3:04pm",0.00,2.15,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMCF",0.63,"8/9/2013","3:33pm",0.00,N/A,0.63,0.6199,12054'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMPL",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANCB",17.99,"8/9/2013","3:58pm",+0.49,N/A,17.99,17.99,100'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANDA",10.05,"8/1/2013","9:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANNB",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP",1.25,"7/31/2013","1:39pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"APKT",0.00,"N/A","3:03pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCW",4.81,"8/8/2013","10:51am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASBB",17.01,"8/7/2013","9:30am",0.00,16.94,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVCA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BCDS",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BDMS",18.22,"8/8/2013","11:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BELFA",17.00,"8/8/2013","3:54pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BFLY",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIOC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMTI",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BOVA",0.00,"N/A","10:-596am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BPAX",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTFG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BWINA",24.32,"8/2/2013","2:29pm",0.00,25.65,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CBOU",0.00,"N/A","4:-528pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CEDC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGEI",10.01,"2/22/2013","3:46pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:04:38 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIZN",18.25,"8/8/2013","2:00pm",0.00,18.30,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGS.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASD.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AU.L",0.00,"N/A","8:02am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVE.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRNE.L",44.00,"8/8/2013","4:00pm",-1.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRWM.L",497.00,"8/8/2013","4:00pm",+15.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAEL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHTR.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHY.L",158.00,"3/28/2012","4:00pm",0.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CKSN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"3DD.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ABH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACZ.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADI.L",0.125,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADS.L",0.00,"N/A","3:16pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEC.L",3.625,"8/2/2013","6:10am",-0.625,3.75,N/A,5.00,25000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEO.L",19.00,"8/9/2013","3:56am",+0.50,18.50,N/A,18.00,6000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AER.L",0.00,"N/A","10:-240am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFCR.L",2.501,"8/9/2013","11:13am",-0.124,2.625,N/A,2.89,18736'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFN.L",3.45,"8/9/2013","5:50am",-0.025,3.475,N/A,3.51,47500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGY.L",9.00,"8/9/2013","11:37am",+0.125,8.875,N/A,9.55,178571'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AHG.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AIEA.L",10.25,"8/9/2013","5:01am",+0.625,9.625,N/A,9.30,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALBA.L",0.15,"8/5/2013","5:03am",-0.06,0.215,N/A,0.171,373504'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMBR.L",11.38,"8/9/2013","5:57am",-0.12,11.50,N/A,11.25,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMEI.L",0.002,"7/31/2013","10:23am",-0.0002,0.0022,N/A,0.0022,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANGM.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANR.L",1.42,"8/9/2013","11:06am",-0.03,1.45,N/A,0.85,3900833'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AOR.L",58.00,"8/9/2013","7:41am",+13.00,45.00,N/A,N/A,16500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARDN.L",47.54,"8/7/2013","12:15pm",-1.96,48.50,N/A,42.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASQ1.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AST.L",0.8485,"8/9/2013","10:50am",+0.1485,0.70,N/A,0.655,1095162'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASTO.L",330.00,"8/9/2013","9:00am",-12.50,342.50,N/A,N/A,91'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ATH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUK.L",2.515,"8/9/2013","2:51am",-0.36,2.875,N/A,2.60,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUR.L",1.75,"8/9/2013","8:11am",-0.125,1.875,N/A,1.75,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AURR.L",32.00,"8/9/2013","11:35am",-0.125,32.125,N/A,31.25,68475'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVIA.L",7.25,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVR.L",10.25,"8/9/2013","12:22pm",0.00,10.25,N/A,N/A,350000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVS.L",217.90,"8/9/2013","7:19am",+2.90,215.00,N/A,220.00,2350'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BBE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BEH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGBL.L",7.875,"8/9/2013","9:50am",+1.00,6.75,N/A,4.00,278405'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BILL.L",3.0025,"8/7/2013","3:06am",-0.2475,3.00,N/A,3.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BJU.L",250.80,"8/8/2013","11:09am",-0.70,251.50,N/A,252.00,3316'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BKY.L",18.03,"8/7/2013","11:17am",-0.345,18.375,N/A,17.50,1500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMT.L",555.75,"8/2/2013","7:02am",+8.25,552.50,N/A,539.35,1000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRU.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BSP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"C21.L",5.672,"8/9/2013","10:59am",-0.453,6.125,N/A,10.37,751431'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAO.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFU.L",2.5003,"8/9/2013","9:17am",-0.1247,2.625,2.93,N/A,176354'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFX.L",275.00,"8/9/2013","4:56am",+12.50,262.50,259.70,N/A,4071'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGNR.L",1.901,"8/9/2013","9:39am",-0.049,1.95,1.905,N/A,762201'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:28 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHA.L",0.4098,"8/9/2013","11:30am",+0.0498,0.45,N/A,N/A,52907680'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:47 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGV",0.00,"N/A","10:-240am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:47 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 17:59:47 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIG-C",8.85,"8/7/2013","12:55pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AACC",0.00,"N/A","4:-347pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACNB",17.00,"8/8/2013","4:00pm",0.00,17.00,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALLB",14.95,"8/7/2013","1:49pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALNC",0.00,"N/A","4:-529pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALRN",0.11,"8/8/2013","12:58pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTE",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTI",2.1472,"8/8/2013","3:04pm",0.00,2.15,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMCF",0.63,"8/9/2013","3:33pm",0.00,N/A,0.63,0.6199,12054'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMPL",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANCB",17.99,"8/9/2013","3:58pm",+0.49,N/A,17.99,17.99,100'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANDA",10.05,"8/1/2013","9:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANNB",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP",1.25,"7/31/2013","1:39pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"APKT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCT",0.00,"N/A","6:21pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCW",4.81,"8/8/2013","10:51am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASBB",17.01,"8/7/2013","9:30am",0.00,16.94,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVCA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BCDS",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BDMS",18.22,"8/8/2013","11:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BELFA",17.00,"8/8/2013","3:54pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BFLY",0.00,"N/A","2:-528pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIOC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMTI",0.00,"N/A","2:-240am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BOVA",0.00,"N/A","2:-240am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BPAX",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTFG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BWINA",24.32,"8/2/2013","2:29pm",0.00,25.65,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CBOU",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CEDC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGEI",10.01,"2/22/2013","3:46pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIZN",18.25,"8/8/2013","2:00pm",0.00,18.30,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGS.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASD.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AU.L",0.00,"N/A","6:27am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVE.L",0.00,"N/A","3:28am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRNE.L",44.00,"8/8/2013","4:00pm",-1.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRWM.L",497.00,"8/8/2013","4:00pm",+15.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAEL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHTR.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHY.L",158.00,"3/28/2012","4:00pm",0.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:23 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CKSN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"3DD.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ABH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACZ.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADI.L",0.125,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADS.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEC.L",3.625,"8/2/2013","6:10am",-0.625,3.75,N/A,5.00,25000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEO.L",19.00,"8/9/2013","3:56am",+0.50,18.50,N/A,18.00,6000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AER.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFCR.L",2.501,"8/9/2013","11:13am",-0.124,2.625,N/A,2.89,18736'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFN.L",3.45,"8/9/2013","5:50am",-0.025,3.475,N/A,3.51,47500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGY.L",9.00,"8/9/2013","11:37am",+0.125,8.875,N/A,9.55,178571'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AHG.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AIEA.L",10.25,"8/9/2013","5:01am",+0.625,9.625,N/A,9.30,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALBA.L",0.15,"8/5/2013","5:03am",-0.06,0.215,N/A,0.171,373504'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMBR.L",11.38,"8/9/2013","5:57am",-0.12,11.50,N/A,11.25,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMEI.L",0.002,"7/31/2013","10:23am",-0.0002,0.0022,N/A,0.0022,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANGM.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANR.L",1.42,"8/9/2013","11:06am",-0.03,1.45,N/A,0.85,3900833'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AOR.L",58.00,"8/9/2013","7:41am",+13.00,45.00,N/A,N/A,16500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARDN.L",47.54,"8/7/2013","12:15pm",-1.96,48.50,N/A,42.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASQ1.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AST.L",0.8485,"8/9/2013","10:50am",+0.1485,0.70,N/A,0.655,1095162'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASTO.L",330.00,"8/9/2013","9:00am",-12.50,342.50,N/A,N/A,91'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ATH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUK.L",2.515,"8/9/2013","2:51am",-0.36,2.875,N/A,2.60,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUR.L",1.75,"8/9/2013","8:11am",-0.125,1.875,N/A,1.75,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AURR.L",32.00,"8/9/2013","11:35am",-0.125,32.125,N/A,31.25,68475'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVIA.L",7.25,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVR.L",10.25,"8/9/2013","12:22pm",0.00,10.25,N/A,N/A,350000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVS.L",217.90,"8/9/2013","7:19am",+2.90,215.00,N/A,220.00,2350'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BBE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BEH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGBL.L",7.875,"8/9/2013","9:50am",+1.00,6.75,N/A,4.00,278405'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BILL.L",3.0025,"8/7/2013","3:06am",-0.2475,3.00,N/A,3.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BJU.L",250.80,"8/8/2013","11:09am",-0.70,251.50,N/A,252.00,3316'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BKY.L",18.03,"8/7/2013","11:17am",-0.345,18.375,N/A,17.50,1500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMT.L",555.75,"8/2/2013","7:02am",+8.25,552.50,N/A,539.35,1000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRU.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BSP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"C21.L",5.672,"8/9/2013","10:59am",-0.453,6.125,N/A,10.37,751431'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAO.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFU.L",2.5003,"8/9/2013","9:17am",-0.1247,2.625,2.93,N/A,176354'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFX.L",275.00,"8/9/2013","4:56am",+12.50,262.50,259.70,N/A,4071'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGNR.L",1.901,"8/9/2013","9:39am",-0.049,1.95,1.905,N/A,762201'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHA.L",0.4098,"8/9/2013","11:30am",+0.0498,0.45,N/A,N/A,52907680'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:47 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGV",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:47 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 18:59:47 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIG-C",8.85,"8/7/2013","12:55pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AACC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACNB",17.00,"8/8/2013","4:00pm",0.00,17.00,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALLB",14.95,"8/7/2013","1:49pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALNC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALRN",0.11,"8/8/2013","12:58pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTE",0.00,"N/A","2:-528pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTI",2.1472,"8/8/2013","3:04pm",0.00,2.15,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMCF",0.63,"8/9/2013","3:33pm",0.00,N/A,0.63,0.6199,12054'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMPL",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANCB",17.99,"8/9/2013","3:58pm",+0.49,N/A,17.99,17.99,100'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANDA",10.05,"8/1/2013","9:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANNB",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP",1.25,"7/31/2013","1:39pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"APKT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCW",4.81,"8/8/2013","10:51am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASBB",17.01,"8/7/2013","9:30am",0.00,16.94,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVCA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BCDS",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BDMS",18.22,"8/8/2013","11:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BELFA",17.00,"8/8/2013","3:54pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BFLY",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIOC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMTI",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BOVA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BPAX",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTFG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BWINA",24.32,"8/2/2013","2:29pm",0.00,25.65,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CBOU",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CEDC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGEI",10.01,"2/22/2013","3:46pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 19:00:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIZN",18.25,"8/8/2013","2:00pm",0.00,18.30,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"3DD.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ABH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACZ.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADI.L",0.125,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ADS.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEC.L",3.625,"8/2/2013","6:10am",-0.625,3.75,N/A,5.00,25000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AEO.L",19.00,"8/9/2013","3:56am",+0.50,18.50,N/A,18.00,6000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AER.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFCR.L",2.501,"8/9/2013","11:13am",-0.124,2.625,N/A,2.89,18736'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AFN.L",3.45,"8/9/2013","5:50am",-0.025,3.475,N/A,3.51,47500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGY.L",9.00,"8/9/2013","11:37am",+0.125,8.875,N/A,9.55,178571'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AHG.L",0.00,"N/A","11:42am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AIEA.L",10.25,"8/9/2013","5:01am",+0.625,9.625,N/A,9.30,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALBA.L",0.15,"8/5/2013","5:03am",-0.06,0.215,N/A,0.171,373504'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMBR.L",11.38,"8/9/2013","5:57am",-0.12,11.50,N/A,11.25,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMEI.L",0.002,"7/31/2013","10:23am",-0.0002,0.0022,N/A,0.0022,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANGM.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANR.L",1.42,"8/9/2013","11:06am",-0.03,1.45,N/A,0.85,3900833'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AOR.L",58.00,"8/9/2013","7:41am",+13.00,45.00,N/A,N/A,16500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARDN.L",47.54,"8/7/2013","12:15pm",-1.96,48.50,N/A,42.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASQ1.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AST.L",0.8485,"8/9/2013","10:50am",+0.1485,0.70,N/A,0.655,1095162'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASTO.L",330.00,"8/9/2013","9:00am",-12.50,342.50,N/A,N/A,91'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ATH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUK.L",2.515,"8/9/2013","2:51am",-0.36,2.875,N/A,2.60,50000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AUR.L",1.75,"8/9/2013","8:11am",-0.125,1.875,N/A,1.75,10000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AURR.L",32.00,"8/9/2013","11:35am",-0.125,32.125,N/A,31.25,68475'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVIA.L",7.25,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVR.L",10.25,"8/9/2013","12:22pm",0.00,10.25,N/A,N/A,350000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVS.L",217.90,"8/9/2013","7:19am",+2.90,215.00,N/A,220.00,2350'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BBE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BEH.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGBL.L",7.875,"8/9/2013","9:50am",+1.00,6.75,N/A,4.00,278405'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BILL.L",3.0025,"8/7/2013","3:06am",-0.2475,3.00,N/A,3.00,5000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BJU.L",250.80,"8/8/2013","11:09am",-0.70,251.50,N/A,252.00,3316'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BKY.L",18.03,"8/7/2013","11:17am",-0.345,18.375,N/A,17.50,1500'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMT.L",555.75,"8/2/2013","7:02am",+8.25,552.50,N/A,539.35,1000'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRU.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BSP.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"C21.L",5.672,"8/9/2013","10:59am",-0.453,6.125,N/A,10.37,751431'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAO.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFU.L",2.5003,"8/9/2013","9:17am",-0.1247,2.625,2.93,N/A,176354'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CFX.L",275.00,"8/9/2013","4:56am",+12.50,262.50,259.70,N/A,4071'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGNR.L",1.901,"8/9/2013","9:39am",-0.049,1.95,1.905,N/A,762201'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:25 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHA.L",0.4098,"8/9/2013","11:30am",+0.0498,0.45,N/A,N/A,52907680'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AGS.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARE.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASD.L",0.00,"N/A","7:31am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AU.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVE.L",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BGC.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRNE.L",44.00,"8/8/2013","4:00pm",-1.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BRWM.L",497.00,"8/8/2013","4:00pm",+15.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CAEL.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHTR.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHY.L",158.00,"3/28/2012","4:00pm",0.00,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:01:30 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CKSN.L",0.00,"N/A","N/A",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:03:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGV",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:03:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CHG",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:03:26 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIG-C",8.85,"8/7/2013","12:55pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AACC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ACNB",17.00,"8/8/2013","4:00pm",0.00,17.00,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALLB",14.95,"8/7/2013","1:49pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALNC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALRN",0.11,"8/8/2013","12:58pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTE",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ALTI",2.1472,"8/8/2013","3:04pm",0.00,2.15,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMCF",0.63,"8/9/2013","3:33pm",0.00,N/A,0.63,0.6199,12054'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AMPL",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANCB",17.99,"8/9/2013","3:58pm",+0.49,N/A,17.99,17.99,100'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANDA",10.05,"8/1/2013","9:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANNB",0.00,"N/A","7:42pm",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ANTP",1.25,"7/31/2013","1:39pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"APKT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCT",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ARCW",4.81,"8/8/2013","10:51am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"ASBB",17.01,"8/7/2013","9:30am",0.00,16.94,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"AVCA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BCDS",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BDMS",18.22,"8/8/2013","11:30am",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BELFA",17.00,"8/8/2013","3:54pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BFLY",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BIOC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BMTI",0.00,"N/A","10:-240am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BOVA",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BPAX",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BTFG",0.00,"N/A","9:38am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"BWINA",24.32,"8/2/2013","2:29pm",0.00,25.65,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CBOU",0.00,"N/A","9:17am",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CEDC",0.00,"N/A","N/A",N/A,N/A,N/A,N/A,N/A'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CGEI",10.01,"2/22/2013","3:46pm",0.00,N/A,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:06:29 org.kakooge.dacho.dm.process.YahooPriceDownloadProcess clean
+WARNING: Could not parse record '"CIZN",18.25,"8/8/2013","2:00pm",0.00,18.30,N/A,N/A,0'; ignoring with exception 'For input string: "N/A"'
+11-Aug-2013 20:33:38 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services
+11-Aug-2013 20:33:38 org.kakooge.dacho.loader.BootstrapDaemon destroyServiceManager
+INFO: Stopping the services manager and all services

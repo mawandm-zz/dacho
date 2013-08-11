@@ -1,0 +1,14 @@
+#include "../../module.h"
+#include <iostream>
+#include <fstream>
+
+static std::wstring GetModuleLocation(){
+	return std::wstring();
+}
+
+std::string GetDachoHome(){
+  //std::wstring location = GetModuleLocation();
+  std::string location = "C:\\Users\\mawandm\\Documents\\projects\\kakooge\\dacho\\dacho-sm\\dist\\config\\djvm.properties";
+  char path[MAX_PATH] = {0};
+  return path;
+}

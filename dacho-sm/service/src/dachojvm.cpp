@@ -1,29 +1,39 @@
 #include <string.h>
-#include "dachojvm.h"
 #include <stdexcept>
+#include <sstream>
+#include "dachojvm.h"
+#include "module.h"
+
+static void someSimpleUntrustedTrim(std::string &str){
+  std::stringstream temp;
+  temp << str;
+  str.clear();
+  temp >> str;
+}
+
 
 void DachoJVM::init(){
 
-	// Make options
-  std::map<std::string, std::string>::iterator m_it = m_properties.begin();
+  // Make options
   std::vector<std::string>::iterator v_it = v_optionstr.begin();
   std::vector<JavaVMOption>::iterator vo_it = v_options.begin();
-  for (; m_it!=m_properties.end(); ++m_it, ++v_it, ++vo_it){
-	  v_it->append(m_it->first);
-	  if(m_it->second.length()>0){
-		  v_it->append("=").append(m_it->second);
-	  }
-	  vo_it->optionString = const_cast<char *>(v_it->c_str());
+  for (; v_it!=v_optionstr.end(); ++v_it, ++vo_it){
+    someSimpleUntrustedTrim(*v_it);
+    vo_it->optionString = const_cast<char *>(v_it->c_str());
   }
 
-  vm_args.version  = JNI_VERSION_1_6;                   /* Specifies the JNI version used */
+  vm_args.version  = JNI_VERSION_1_6;
   vm_args.options  = &v_options[0];
   vm_args.nOptions = v_options.size();
   vm_args.ignoreUnrecognized = JNI_TRUE;                 /* JNI won't complain about unrecognized options */
 
   //- Start machine
-  if (JNI_CreateJavaVM(&jvm, (void **)&env, &vm_args)) 
-	  throw std::runtime_error("Failed to create the JVM");
+  //if (JNI_CreateJavaVM(&jvm, (void **)&env, &vm_args)) 
+  typedef jint (JNICALL*LPTRCreateJavaVM)(JavaVM **, void **, void *);
+
+  LPTRCreateJavaVM ptrCreateJavaVM = reinterpret_cast<LPTRCreateJavaVM>(CreateJavaVM());
+  if(ptrCreateJavaVM(&jvm, (void **)&env, &vm_args))
+	throw std::runtime_error("Failed to create the JVM");
 
   if(env->GetVersion() < SUPPORTED_JVM)
     throw std::runtime_error("Unsupported JVM version, please upgrade");
@@ -50,8 +60,8 @@ void DachoJVM::executeMethod(const std::string &className, const std::string &me
   env->CallStaticVoidMethod(cls, methodId, 0); /* call method() */
 }
 
-DachoJVM::DachoJVM(std::map<std::string, std::string> &properties)
-: m_properties(properties), v_options(properties.size()), v_optionstr(properties.size()){}
+DachoJVM::DachoJVM(std::vector<std::string> &v_config)
+  : v_options(v_config.size()), v_optionstr(v_config){}
 DachoJVM::~DachoJVM() throw(){}
 /*
 DachoJVM::DachoJVM(const DachoJVM &other) : properties(other.properties){}

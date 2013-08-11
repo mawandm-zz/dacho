@@ -43,6 +43,8 @@ public class BootstrapDaemon {
      * @throws Exception
      */
     public static void initServiceManager(){
+    	logger.info("Starting the services manager and all services");
+    	System.out.println("Starting the services manager and all services");
     	if(serviceManagerBootstrap == null){
     		logger.log(Level.WARNING, "Service manager instance not found in initServiceManage");
     		return;
@@ -60,6 +62,8 @@ public class BootstrapDaemon {
      * @throws Exception
      */
     public static void destroyServiceManager(){
+    	logger.info("Stopping the services manager and all services");
+    	System.out.println("Stopping the services manager and all services");
     	if(serviceManagerBootstrap == null){
     		logger.log(Level.WARNING, "Service manager instance not found in destroyServiceManage");
     		return;

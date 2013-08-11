@@ -41,7 +41,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="&quot;c:\Program Files (x86)\Java\jdk1.6.0_18\include&quot;;&quot;c:\Program Files (x86)\Java\jdk1.6.0_18\include\win32&quot;"
-				PreprocessorDefinitions="NOMINMAX "
+				PreprocessorDefinitions="NOMINMAX;_CRT_SECURE_NO_WARNINGS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -59,9 +59,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="jvm.lib Shlwapi.lib"
+				AdditionalDependencies="Shlwapi.lib"
 				OutputFile="$(OutDir)\dacho.exe"
-				AdditionalLibraryDirectories="&quot;c:\Program Files (x86)\Java\jdk1.6.0_18\lib&quot;"
+				AdditionalLibraryDirectories=""
+				IgnoreAllDefaultLibraries="false"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -115,8 +116,9 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				PreprocessorDefinitions="NOMINMAX "
-				RuntimeLibrary="2"
+				AdditionalIncludeDirectories="&quot;c:\Program Files (x86)\Java\jdk1.6.0_18\include&quot;;&quot;c:\Program Files (x86)\Java\jdk1.6.0_18\include\win32&quot;"
+				PreprocessorDefinitions="NOMINMAX;_CRT_SECURE_NO_WARNINGS"
+				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
 				WarningLevel="3"
 				DebugInformationFormat="3"
@@ -132,7 +134,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="Shlwapi.lib"
 				OutputFile="$(OutDir)\dacho.exe"
+				AdditionalLibraryDirectories=""
 				GenerateDebugInformation="true"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"

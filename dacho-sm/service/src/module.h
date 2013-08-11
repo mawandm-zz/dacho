@@ -2,6 +2,7 @@
 #define _MODULE_H
 
 #include <string>
-std::wstring GetModuleLocation();
+std::string GetDachoHome();
+void * CreateJavaVM();
 
 #endif

@@ -1,7 +1,7 @@
 #ifndef _DAEMON_H
 #define _DAEMON_H
 
-#include <map>
+#include <vector>
 #include <string>
 #include "dachojvm.h"
 
@@ -13,7 +13,7 @@ public:
 	void Start();
 	void Stop();
 	~Daemon() throw();
-	Daemon(std::map<std::string, std::string> &properties);
+	Daemon(std::vector<std::string> &v_config);
 };
 
 #endif

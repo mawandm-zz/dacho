@@ -12,9 +12,9 @@ void Daemon::Start(){
 }
 
 void Daemon::Stop(){
-  dachoJVM.executeMethod("org/kakooge/dacho/loader/BootstrapDaemon", "detroyServiceManager", "()V");
+  dachoJVM.executeMethod("org/kakooge/dacho/loader/BootstrapDaemon", "destroyServiceManager", "()V");
   dachoJVM.destroy();
 }
 
-Daemon::Daemon(std::map<std::string, std::string> &properties) : dachoJVM(properties){}
+Daemon::Daemon(std::vector<std::string> &v_config) : dachoJVM(v_config){}
 Daemon::~Daemon() throw(){}
