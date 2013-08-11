@@ -1,7 +1,7 @@
 package org.kakooge.dacho.dm.process;
 
 /**
- *
+ * Generic class for a download process
  * @author mawandm
  */
 public abstract class AbstractDownloadProcess<T, W> implements DownloadProcess<T, W>{

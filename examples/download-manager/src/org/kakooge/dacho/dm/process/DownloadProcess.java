@@ -10,11 +10,45 @@ package org.kakooge.dacho.dm.process;
 * 
 */
 public interface DownloadProcess<T, W> {
+	
+	/**
+	 * Download the data
+	 * @return the downloaded data in either raw format or with some basic formatting
+	 * @throws Exception
+	 */
 	T download() throws Exception;
+	
+	/**
+	 * Clean the downloaded data
+	 * @param data the downloaded data
+	 * @return cleaned data ready to be saved
+	 * @throws Exception if bad things happen
+	 */
 	W clean(T data) throws Exception;
+	
+	/**
+	 * Saves the data into some persistent state
+	 * @param data the data
+	 * @throws Exception when bad things happen
+	 */
 	void save(W data) throws Exception;
+	
+	/**
+	 * Allows for initialization of the download process
+	 * @throws Exception
+	 */
 	void init() throws Exception;
+	
+	/**
+	 * Allows for clean destruction of this download process object
+	 * @throws Exception
+	 */
 	void destroy() throws Exception;
+	
+	/**
+	 * Performs the choreographed execution of the download process
+	 * @throws Exception
+	 */
 	void execute() throws Exception;
 }
 

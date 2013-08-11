@@ -32,7 +32,7 @@ import org.kakooge.dacho.dm.service.ServiceRunnable;
 
 
 /**
- * Download data
+ * Download process for Yahoo finance 
  * @author mawandm
  */
 public class YahooPriceDownloadProcess extends AbstractDownloadProcess<String[], List<Security>>{
@@ -54,6 +54,12 @@ public class YahooPriceDownloadProcess extends AbstractDownloadProcess<String[],
        this.serviceContext = serviceContext;
    }
    
+   /**
+    * This helps us build a URI for the symbol to send to finance.yahoo.com
+    * @param symbol
+    * @return
+    * @throws Exception
+    */
    private URI buildURI(String symbol) throws Exception{
        //http://download.finance.yahoo.com/d/quotes.csv?s=SORL&f=sl1d1t1c1ohgv&e=.csv
        URIBuilder builder = new URIBuilder();
@@ -64,6 +70,13 @@ public class YahooPriceDownloadProcess extends AbstractDownloadProcess<String[],
        return builder.build();      
    }
    
+   /**
+    * Download Yahoo prices
+    * @param httpclient the httpClient to connect with
+    * @param symbol the symbol to query
+    * @return
+    * @throws Exception
+    */
    private String downloadYahoo(HttpClient httpclient, String symbol) throws Exception{
        URI uri = buildURI(symbol);
        
@@ -142,7 +155,9 @@ public class YahooPriceDownloadProcess extends AbstractDownloadProcess<String[],
    }
 
 
-   
+   /**
+    * This pattern allows us to clean some of that Yahoo data that is always quoted
+    */
    private final static Pattern pattern = Pattern.compile("\"*");
 
    @Override

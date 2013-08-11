@@ -24,3 +24,9 @@ Compiled and zipped binaries are zipped into the single file dist/dacho-service-
 Design Description
 ------------------
 For a detailed description of the design of this piece of software, please visit www.student.city.ac.uk/~abgs750/dacho/
+
+To-do
+-----
+- Unix daemon, start/stop script
+- Polish up, unify unit tests
+- Windows service event logging
