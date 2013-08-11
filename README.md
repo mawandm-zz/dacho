@@ -21,6 +21,6 @@ Source Tree
 
 Compiled and zipped binaries are zipped into the single file dist/dacho-service-manager-1.0.zip
 
-Description
------------
+Design Description
+------------------
 For a detailed description of the design of this piece of software, please visit www.student.city.ac.uk/~abgs750/dacho/
