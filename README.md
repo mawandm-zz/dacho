@@ -23,30 +23,8 @@ The other objective is to have an implementation that is only dependent on the o
 Source Tree
 ----------
 
--dacho-sm (this is contains the source for the service manager)
- 
---src (the service manager java source files)
+Compiled and zipped binaries are zipped into the single file dist/dacho-service-manager-1.0.zip
 
---- service (windows service and unix daemon source files)
-
--dacho-sm-api (API that your application needs to build against)
-
--dist (where the final distribution is built to)
-
--- dacho-service-manager-1.0.zip is the release build
-
--- release (dacho-service-manager-1.0.zip is built from here)
-
--examples
-
--- jetty-ws (Jetty refactored as a dacho web service)
-
--- download-manager (a scheduled download manager)
-
--tests
-
--external (all the necessary libraries needed to build the various components)
-
--README.md
-
-See also: www.student.city.ac.uk/~abgs750/dacho/
+Description
+-----------
+For a detailed description of the design of this piece of software, please visit www.student.city.ac.uk/~abgs750/dacho/
