@@ -9,8 +9,7 @@ such as the download manager example. I currently use the dacho services manager
 customizable using java regular expressions passed in through a configuration file. The
 logging service then in turn sends email notification if the regular expression rules match
 
-- Downloading (at regular intervals) prices for various financial securities and scheduling some financial
-calculations on securities that are of interest to me.
+- Downloading (at regular intervals) prices for various financial securities and scheduling some financial calculations on securities that are of interest to me. A simplified compact version of this download-manager is supplied as part of this project and can be found in the examples folder
 
 - An ActiveMQ JMS application producing and sending thousands of message to multiple clients through and ActiveMQ broker  
 
