@@ -1,12 +1,0 @@
-10-Aug-2013 22:31:05 org.kakooge.dacho.loader.ServiceController makeService
-INFO: Launching service from descriptor '/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm/service.xml'
-10-Aug-2013 22:31:05 org.kakooge.dacho.dm.service.DataManagerService OnStart
-INFO: Executing OnStart in class 'org.kakooge.dacho.dm.service.DataManagerService'
-10-Aug-2013 22:31:05 org.kakooge.dacho.dm.service.DataManagerService OnStart
-INFO: TEST Property1
-10-Aug-2013 22:31:05 org.kakooge.dacho.dm.service.DataManagerService OnStart
-INFO: service.home=/host/Users/mawandm/Documents/Projects/kakooge/dacho/dacho-sm/dist/services/kakooge-dm
-10-Aug-2013 22:31:05 org.kakooge.dacho.dm.service.DataManagerService OnStart
-INFO: config=config/dm.properties
-10-Aug-2013 22:31:05 org.kakooge.dacho.dm.service.DataManagerService OnStart
-INFO: run.schedule=				'FTAS','FTAI'|59 * * * *				'IXIC','NYA'|59 * * * *								
