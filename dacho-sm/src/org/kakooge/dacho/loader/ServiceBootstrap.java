@@ -52,11 +52,6 @@ public class ServiceBootstrap extends ServiceBase{
     public String getStatusMessage() {
         return statusMessage;
     }
-/*
-    public Object getServiceInstance() {
-        return serviceInstance;
-    }
-*/
 	
     //@Override
     private void invokeMethod(ServiceMethod invokeMethod, List<?> args) throws DSMException{
@@ -84,8 +79,11 @@ public class ServiceBootstrap extends ServiceBase{
         }
         
         
+    	statusMessage = String.format("invoking %s()", methodName);
+    	messagePrint(statusMessage);
+        
         try{
-
+        	boolean executed = false;
             //find the method OnStart() and execute it
             Method[] allMethods = serviceInstance.getClass().getDeclaredMethods();
             for (Method m : allMethods) {
@@ -93,10 +91,6 @@ public class ServiceBootstrap extends ServiceBase{
                 if (!mname.equals(methodName)) {
                     continue;
                 }
-
-
-            	statusMessage = String.format("invoking %s()", mname);
-            	messagePrint(statusMessage);
 
                 try {
                     m.setAccessible(true);
@@ -114,18 +108,23 @@ public class ServiceBootstrap extends ServiceBase{
                     
                 // Handle any exceptions thrown by method to be invoked.
                 } catch (InvocationTargetException x) {
-                    throw new DSMException(String.format("invocation of %s failed: %s%n", mname));
+                    throw new DSMException(String.format("invocation of %s failed", mname), x);
                 }
             }
+            
+            if(!executed){
+            	throw new DSMException("Did not find the requested method to execute");
+            }
         }catch(Exception e){
-            statusMessage = String.format("Failied to initialize service class '%s' due to exception '%s", this.serviceClassName, e.getMessage());
+            statusMessage = String.format("Failied to initialize service class '%s' due to exception '%s", serviceClassName, e.getMessage());
             if(debug){
                 e.printStackTrace();
             }
+            throw new DSMException(statusMessage, e);
         }
     }
 
-    @SuppressWarnings({ "rawtypes", "unchecked" })
+    @SuppressWarnings({ "rawtypes", "unchecked" }) //List and ArrayList
     @Override
 	public void OnStart(Logger logger, ServiceContext serviceContext) throws DSMException {
         

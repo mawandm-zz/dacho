@@ -1,5 +1,0 @@
-#Use this file to pass command JVM options to JNI_CreateJavaVM
--Djava.compiler
-#-Djava.class.path=dacho-service-manager-1.0.jar
--verbose
-#-Dxml.config=config/dacho.xml

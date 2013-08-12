@@ -30,3 +30,6 @@ To-do
 - Unix daemon, start/stop script
 - Polish up, unify unit tests
 - Windows service event logging
+- Security context
+- Auto-update/reload service
+- Service controller webapp
