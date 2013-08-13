@@ -1,5 +1,7 @@
 package org.kakooge.dacho.tests.mocks;
 
-public class TestServiceClass2 {
+import java.io.Serializable;
 
+public class TestServiceClass2 implements Serializable{
+	private static final long serialVersionUID = -6728512363294816048L;
 }

@@ -6,10 +6,14 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner {
    public static void main(String[] args) {
-      Result result = JUnitCore.runClasses(ServiceBootstrapTest.class);
+      Result result = JUnitCore.runClasses(ServiceBootstrapTest.class
+    		  ,ServiceClassloaderTest.class
+    		  ,IOUtilsTest.class
+    		  );
+      
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
       }
-      System.out.println("Test result: " + result.wasSuccessful());
+      System.out.println("Test result: " + (result.wasSuccessful() ? "Pass" : "Fail"));
    }
 } 

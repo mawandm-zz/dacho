@@ -84,7 +84,7 @@ public class ServiceBootstrap extends ServiceBase{
         
         try{
         	boolean executed = false;
-            //find the method OnStart() and execute it
+            
             Method[] allMethods = serviceInstance.getClass().getDeclaredMethods();
             for (Method m : allMethods) {
                 String mname = m.getName();
@@ -105,6 +105,8 @@ public class ServiceBootstrap extends ServiceBase{
                     	m.invoke(serviceInstance, args.toArray());
                     else
                     	m.invoke(serviceInstance);
+                    
+                    executed = true;
                     
                 // Handle any exceptions thrown by method to be invoked.
                 } catch (InvocationTargetException x) {

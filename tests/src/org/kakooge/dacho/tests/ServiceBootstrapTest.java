@@ -13,6 +13,7 @@ import org.kakooge.dacho.tests.mocks.ServiceContextMock;
 import org.kakooge.dacho.tests.mocks.TestServiceClass1;
 import org.kakooge.dacho.tests.mocks.TestServiceClass2;
 import org.kakooge.dacho.tests.mocks.TestServiceClass3;
+import org.kakooge.dacho.tests.util.Util;
 
 /**
  * 
@@ -33,6 +34,21 @@ public class ServiceBootstrapTest{
 			fail(e.getMessage());
 		}
 	}
+
+	/**
+	 * Test the execution of a a valid OnStart
+	 */
+	@Test
+	public void testValidClassOnStart(){
+		
+		try {
+			ServiceBase bootstrapService = new ServiceBootstrap(getClass().getClassLoader(), TestServiceClass1.class.getName());
+			bootstrapService.OnStart(Logger.getAnonymousLogger(), null);
+		} catch (Exception e) {
+			//System.out.println(Util.stackTraceString(e));
+			fail("Failed to execute the OnStart method successfully");
+		}
+	}
 	
 	/**
 	 * Test loading of an invalid class name
@@ -44,6 +60,7 @@ public class ServiceBootstrapTest{
 			bootstrapService = new ServiceBootstrap(getClass().getClassLoader(), "");
 			fail("Error loaded invalid class ''");
 		} catch (Exception e) {
+			
 		}
 
 	}
