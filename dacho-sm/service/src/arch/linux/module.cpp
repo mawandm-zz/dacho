@@ -29,7 +29,7 @@ static void FindJVM(std::string &JVMPath){
   }
   
   memset(LIBPath, 0, sizeof LIBPath);
-  const char * dllPathEnd = "bin/server/jvm.so";
+  const char * dllPathEnd = "lib/libjvm.so";
   
   sprintf(LIBPath, "%s/jre/%s", pPath, dllPathEnd);
   result = _stat(LIBPath, &buf);
