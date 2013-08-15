@@ -78,7 +78,7 @@ int RunService(Daemon *daemon){
   close(STDOUT_FILENO);
   close(STDERR_FILENO);
 */
-  //  registerTerminateHandler();
+  registerTerminateHandler();
   daemon->Start();
   sleep(std::numeric_limits<unsigned>::max());
   return 0;

@@ -33,3 +33,4 @@ To-do
 - Security context
 - Auto-update/reload service
 - Service controller webapp
+- JVM crash reporting

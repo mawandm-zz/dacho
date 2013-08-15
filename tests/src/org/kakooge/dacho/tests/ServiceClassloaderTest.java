@@ -4,11 +4,32 @@ import java.io.File;
 import java.net.URL;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.kakooge.dacho.loader.ServiceClassLoader;
 import org.kakooge.dacho.loader.ServiceController;
 
 public class ServiceClassloaderTest {
+	
+	private ClassLoader classLoader1 = null;
+	private ClassLoader classLoader2 = null;
+	private Class<?> klass1 = null;
+	private Class<?> klass2 = null;
+	private Class<?> klass3 = null;
+	
+	@Before
+	public void initObjects() throws Exception{
+        File file = new File("lib/classloader-test.jar");
+        URL[] urls = new URL[]{file.toURI().toURL()};
+        
+        classLoader1 = new ServiceClassLoader(urls, ServiceController.class.getClassLoader());
+        classLoader2 = new ServiceClassLoader(urls, ServiceController.class.getClassLoader());
+        
+        klass1 = classLoader1.loadClass("org.kakooge.dacho.tests.mocks.TestClassLoaderMock");
+        klass2 = classLoader1.loadClass("org.kakooge.dacho.tests.mocks.TestClassLoaderMock");
+        klass3 = classLoader2.loadClass("org.kakooge.dacho.tests.mocks.TestClassLoaderMock");
+	}
+	
     /**
      * The classloader maintains that;
      * <pre>
@@ -21,22 +42,13 @@ public class ServiceClassloaderTest {
      * @throws Exception
      */
 	@Test
-    @SuppressWarnings("unused")
-	public void testClassObjectSimilarity() throws Exception{
-       
-        File file = new File("lib/classloader-test.jar");
-        URL[] urls = new URL[]{file.toURI().toURL()};
-        
-        ClassLoader classLoader1 = new ServiceClassLoader(urls, ServiceController.class.getClassLoader());
-        ClassLoader classLoader2 = new ServiceClassLoader(urls, ServiceController.class.getClassLoader());
-        
-        Class<?> klass1 = classLoader1.loadClass("org.kakooge.dacho.tests.mocks.TestClassLoaderMock");
-        Class<?> klass2 = classLoader1.loadClass("org.kakooge.dacho.tests.mocks.TestClassLoaderMock");
-        Class<?> klass3 = classLoader2.loadClass("org.kakooge.dacho.tests.mocks.TestClassLoaderMock");
-        
-        Assert.assertTrue(klass1.equals(klass2));
-        Assert.assertFalse(klass2.equals(klass3));
-        Assert.assertFalse(klass1.equals(klass3));
+	public void testClassObjectSimilarityDiffCL() throws Exception{
+		Assert.assertFalse(klass2.equals(klass3));
+    }
+	
+	@Test
+	public void testClassObjectSimilaritySameCL() throws Exception{
+		Assert.assertTrue(klass1.equals(klass2));
     }
 	
 	public void testResourceSimilarity(){

@@ -75,7 +75,7 @@ public class IOUtilsTest{
 	 * @throws IOException 
 	 */
 	@Test
-	public void testComplete() throws IOException{
+	public static void testComplete() throws IOException{
 		
 		//- See: http://stackoverflow.com/questions/1755285/creating-a-temp-file-is-incredibly-slow if too slow some JVMs have issues
 		final File tempFile = File.createTempFile("dachoCompleteTest", null);
@@ -83,6 +83,9 @@ public class IOUtilsTest{
 		
 		Thread1 t1 = new Thread1(tempFile);
 		Thread2 t2 = new Thread2(tempFile);
+		
+		t1.setDaemon(true);
+		t2.setDaemon(true);
 		
 		t1.setThread2(t2);
 		t2.setThread1(t1);

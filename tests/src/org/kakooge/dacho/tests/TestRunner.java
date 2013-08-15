@@ -6,6 +6,7 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner {
    public static void main(String[] args) {
+	  System.out.print("Running tests...");
       Result result = JUnitCore.runClasses(ServiceBootstrapTest.class
     		  ,ServiceClassloaderTest.class
     		  ,IOUtilsTest.class
@@ -14,6 +15,6 @@ public class TestRunner {
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
       }
-      System.out.println("Test result: " + (result.wasSuccessful() ? "Pass" : "Fail"));
+      System.out.print((result.wasSuccessful() ? "Pass\n" : "Fail\n"));
    }
 } 
