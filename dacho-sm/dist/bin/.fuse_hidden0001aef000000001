@@ -1,8 +1,0 @@
-#!/bin/sh
-DACHO_HOME=$(pwd)/..
-if [ -z $JAVA_HOME ]; then
- echo "JAVA_HOME needs to be set"
- exit
-fi
-JAVA_PATH=$JAVA_HOME/bin/java
-$JAVA_PATH -Dxml.config=$DACHO_HOME/config/dacho.xml -Ddacho.home=$DACHO_HOME -Djava.util.logging.config.file=$DACHO_HOME/config/logging.properties -server -jar $DACHO_HOME/lib/dacho-service-manager-1.0.jar

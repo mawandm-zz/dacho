@@ -6,11 +6,14 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Scanner;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import org.kakooge.dacho.api.DSMException;
@@ -32,6 +35,7 @@ public class DataManagerService extends ServiceBase{
     private Logger logger = null;
     private final static boolean debug = System.getProperty("debug")!=null;
     
+    private List<DownloadProcess> downloadProcessList = new ArrayList<DownloadProcess>();
     
     @Override
 	public void OnPause() throws DSMException {
@@ -118,12 +122,14 @@ public class DataManagerService extends ServiceBase{
 				// Clone the properties and set the run.market. Then pass the cloned properties into the scheduled task
 				Utilities.copyProperties(properties, props);
 				props.setProperty(YahooPriceDownloadProcess.RUN_MARKET, entry.getKey());
-				Runnable serviceRunnable = new YahooPriceDownloadProcess(logger, serviceContext, props);
-				
+				DownloadProcess processRunnable = new YahooPriceDownloadProcess(logger, serviceContext, props);
+				processRunnable.init();
 				if(debug)
 					logger.info(String.format("Scheduling %s downloads with schedule %s", entry.getKey(), entry.getValue()));
 				
-				scheduler.schedule(entry.getValue(), serviceRunnable);
+				scheduler.schedule(entry.getValue(), processRunnable);
+				
+				downloadProcessList.add(processRunnable);
 			}
 			initialized = true;
 		}
@@ -178,10 +184,20 @@ public class DataManagerService extends ServiceBase{
     public void OnStop() throws DSMException{
     	if(debug)
     		logger.info(String.format("Executing OnStop in class '%s'", getClass().getName()));
+    	
         scheduler.stop();
         
-        if(debug)
-        	logger.info(String.format("Service '%s' stoped", getClass().getName()));
+        for(final DownloadProcess downloadProcess: downloadProcessList){
+        	
+        	if(debug)
+        		logger.info("Destroying download process");
+        	
+        	try {
+				downloadProcess.destroy();
+			} catch (Exception e) {
+				logger.log(Level.WARNING, "Failed to destroy download process", e);
+			}
+        }
     }
     
 }

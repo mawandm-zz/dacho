@@ -29,7 +29,7 @@ import org.kakooge.dacho.dm.process.DownloadTask;
  * Download process for Yahoo finance 
  * @author mawandm
  */
-public class YahooPriceDownloadProcess implements Runnable{
+public class YahooPriceDownloadProcess implements DownloadProcess{
    
 	public static final String DB_DRIVER = "db.driver";
 	public static final String DB_URL = "db.url";
@@ -41,13 +41,13 @@ public class YahooPriceDownloadProcess implements Runnable{
 	private final ServiceContext serviceContext;
 	private final static String CONNECTION_STRING_FORMAT = "jdbc:derby:%s/%s;";
 	
-	private final ExecutorService downloadExecutor;
-	private final ExecutorService saveExecutor;
+	private ExecutorService downloadExecutor;
+	private ExecutorService saveExecutor;
 	
     private final List<Security> securityList = new ArrayList<Security>();
     
-    PoolingClientConnectionManager connectionManager = new PoolingClientConnectionManager();
-    private final HttpClient httpClient = new DefaultHttpClient(connectionManager);
+    private PoolingClientConnectionManager connectionManager = null;
+    private HttpClient httpClient = null;
     private Connection connection;
     
     public final static String RUN_MARKET="run.market";
@@ -61,28 +61,50 @@ public class YahooPriceDownloadProcess implements Runnable{
        this.logger = logger;
        this.serviceContext = serviceContext;
        
-       downloadExecutor = Executors.newCachedThreadPool();
-       saveExecutor = Executors.newCachedThreadPool();
+
    }
    
-   
-   private void init() throws Exception{
-	   initConnection();
+   @Override
+   public void init() throws Exception{
 	   
-	   if(securityList.size()==0) //- Don't initialize twice
-		   initSecurities();
+	   if(debug)
+		   logger.info("Initializing process " + properties.getProperty(RUN_MARKET));
+	   
+       downloadExecutor = Executors.newCachedThreadPool();
+       saveExecutor = Executors.newCachedThreadPool();	   
+
+       connectionManager = new PoolingClientConnectionManager();
+       httpClient = new DefaultHttpClient(connectionManager);
    }
    
-   private void destroy() throws Exception{   
-	   destroyConnection();
+   @Override
+   public void destroy() throws Exception{  
+	   
+	   if(debug)
+		   logger.info("Destroying process " + properties.getProperty(RUN_MARKET));
+	   
+	   if(downloadExecutor!=null)
+		   downloadExecutor.shutdown();
+	   
+	   if(saveExecutor!=null)
+		   saveExecutor.shutdown();
+	   
+	   if(httpClient!=null)
+		   httpClient.getConnectionManager().shutdown();
+	   
+	   if(connectionManager!=null)
+		   connectionManager.shutdown();
    }
    
-   private void initConnection() throws SQLException{
+   private synchronized void initConnection() throws SQLException{
 	   final String url = String.format(CONNECTION_STRING_FORMAT, serviceContext.getInitParameter(ServiceContext.SERVICE_HOME), properties.getProperty(DB_URL));
 	   final String username = properties.getProperty(DB_USERNAME);
 	   final String password = properties.getProperty(DB_PASSWORD);
        
 	   connection = DriverManager.getConnection(url, username, password);
+	   
+	   if(securityList.size()==0) //- Don't initialize twice
+		   initSecurities();	   
    }
    
    private void destroyConnection(){
@@ -169,7 +191,7 @@ public class YahooPriceDownloadProcess implements Runnable{
 	      
 	   PreparedStatement statement = null;
 	   try {
-		   init();
+		   initConnection();
 
 		   for(final Security security : securityList){
 			   DownloadTask downloadTask = new DownloadTask(httpClient, security);
@@ -190,24 +212,12 @@ public class YahooPriceDownloadProcess implements Runnable{
 		   
 		   logger.info("Shutting down " + properties.getProperty(RUN_MARKET));
 		   
-		   if(downloadExecutor!=null)
-			   downloadExecutor.shutdown();
-		   
-		   if(saveExecutor!=null)
-			   saveExecutor.shutdown();
-		   
-		   if(httpClient!=null)
-			   httpClient.getConnectionManager().shutdown();
-		   
-		   if(connectionManager!=null)
-			   connectionManager.shutdown();
-		   
 		   Thread.currentThread().interrupt();	 
 	   } catch (Exception e) {
 		   logger.log(Level.SEVERE, "An error occured during the SaveTask execution", e);			   
 	   }finally{
 		   try {
-			   destroy();
+			   destroyConnection();
 		   } catch (Exception e) {
 			   e.printStackTrace();
 		   }

@@ -97,32 +97,28 @@ public class TestMain {
 		final DataManagerService dataManagerService = new DataManagerService();
 		ServiceContext serviceContext = new TestServiceContext();
 		
-		dataManagerService.OnStart(logger, serviceContext);
-		
 		Runtime.getRuntime().addShutdownHook(new Thread(){
 			@Override
 			public void run() {
 				try {
 					dataManagerService.OnStop();
 				} catch (DSMException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
 		});
-
+		
+		dataManagerService.OnStart(logger, serviceContext);
+		
 		try {
 			Thread.sleep(Long.MAX_VALUE);
 		} catch (InterruptedException e) {
 			;
 		}
 		
-		dataManagerService.OnShutdown();
 		/*
-		
 		Properties prop = properties();
-		prop.setProperty(YahooPriceDownloadProcess.RUN_MARKET, "'FTAS','FTAI'");
-				
+		prop.setProperty(YahooPriceDownloadProcess.RUN_MARKET, "'FTAS','FTAI'");		
 		
 		Runnable downloadProcess = new YahooPriceDownloadProcess(logger, serviceContext, prop);
 		downloadProcess.run();
