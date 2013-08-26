@@ -5,81 +5,87 @@
 #include <sys/stat.h>
 #include <string.h>
 #include <signal.h>
-#include <limits>
+#include <syslog.h>
 #include <iostream>
+#include <limits>
 
+#include "../../module.h"
 #include "service.h"
 
 namespace{
   Daemon *serviceDaemon;
-  void terminateHandler(int signum){
-    std::cout << "Terminating service...\n";
+  void terminateHandler(int, siginfo_t *, void *){
+    syslog(LOG_INFO, "%s", "Terminating the daemon...");
+    //    std::cout << "Terminating service...\n";
     serviceDaemon->Stop();
   }
 
   void registerTerminateHandler(){
     struct sigaction act;
     memset(&act, 0, sizeof act);
-    act.sa_handler = &terminateHandler;
-    // Use the sa_sigaction field, not sa_handler.
+    act.sa_sigaction = &terminateHandler;
     act.sa_flags = SA_SIGINFO;
- 
-    if (!sigaction(SIGINT, &act, NULL)) {
-      perror ("Failed to register the termination signal handler\n");
+    int result = sigaction(SIGINT, &act, NULL);
+    if (result!=0) {
+      syslog(LOG_INFO, "%s", "Failed to register the termination signal handler");
+      //      perror ("Failed to register the termination signal handler\n");
     }
   }
 }
-
 
 /**
    Run service
  */
 int RunService(Daemon *daemon){
   serviceDaemon = daemon;
-  /*
-  FILE *fp= NULL;
-  pid_t process_id = 0;
-  pid_t sid = 0;
-  
-  // Create child process
-  process_id = fork();
 
-  // Indication of fork() failure
-  if (process_id < 0){
-    printf("fork failed!\n");
-    
-    // Return failure in exit status
-    exit(1);
+#if 0
+  /* Our process ID and Session ID */
+  pid_t pid, sid;
+
+  syslog(LOG_INFO, "%s", "Starting the dacho daemon...");
+
+  /* Fork off the parent process */
+  pid = fork();
+  if (pid < 0) {
+    syslog(LOG_INFO, "%s", "Failed to fork off parent...");
+    exit(EXIT_FAILURE);
   }
 
-  // PARENT PROCESS. Need to kill it.
-  if (process_id > 0){
-    printf("process_id of child process %d \n", process_id);
-    
-    // return success in exit status
-    exit(0);
+  /* If we got a good PID, then
+     we can exit the parent process. */
+  if (pid > 0) {
+    exit(EXIT_SUCCESS);
   }
 
-  //unmask the file mode
+  /* Change the file mode mask */
   umask(0);
-
-  //set new session
+  
+  /* Open any logs here */
+  /* Create a new SID for the child process */
   sid = setsid();
-  if(sid < 0){
-    // Return failure
-    exit(1);
+  if (sid < 0) {
+    syslog(LOG_INFO, "%s", "Could not create new SID for the child process...");
+    /* Log the failure */
+    exit(EXIT_FAILURE);
   }
 
-  // Change the current working directory to root.
-  chdir("/");
-
-  // Close stdin. stdout and stderr
+  std::string &dachohome = GetDachoHome();
+  /* Change the current working directory */
+  if ((chdir(dachohome.c_str())) < 0) {
+    /* Log the failure */
+    exit(EXIT_FAILURE);
+  }
+  /* Close out the standard file descriptors */
   close(STDIN_FILENO);
   close(STDOUT_FILENO);
   close(STDERR_FILENO);
-*/
-  registerTerminateHandler();
+
+  syslog(LOG_INFO, "%s", "Starting the daemon...");
+#endif
+  /* Daemon-specific initialization goes here */
   daemon->Start();
+  registerTerminateHandler();
   sleep(std::numeric_limits<unsigned>::max());
   return 0;
 }

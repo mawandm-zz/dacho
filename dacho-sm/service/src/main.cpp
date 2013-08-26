@@ -46,8 +46,8 @@ int main(int argc, char *argv[]){
       //Sleep(std::numeric_limits<unsigned>::max());
       Sleep(10 * 1000);
 #else
-      //sleep(std::numeric_limits<unsigned>::max());
-      sleep(10 * 1000);
+      sleep(std::numeric_limits<unsigned>::max());
+      //sleep(10 * 1000);
 #endif
 	  try{
         daemon.Stop();

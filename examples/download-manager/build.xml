@@ -10,7 +10,7 @@
     <property name="out.file" value="${dist.dir}/${app.name}.jar"/>
 	<property name="common.lib.dir" value="../../external"/>
 	<property name="dacho-sm-api" value="../../dacho-sm-api/dist"/>
-	<property name="main.class" value="org.kakooge.dacho.dm.Main"/>
+	<property name="main.class" value="org.kakooge.dacho.dm.TestMain"/>
 
     <path id="master-classpath">
     	<pathelement location="${common.lib.dir}/derby.jar"/>

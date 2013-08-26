@@ -74,7 +74,7 @@ public class IOUtils {
 		if(file.isDirectory())
 			return name;
 		final int idx = name.lastIndexOf('.');
-		return (idx<0) ? name : name.substring(0, idx);
+		return (idx<0) ? name : name.substring(0, idx).intern();
 	}
 	
 	/**

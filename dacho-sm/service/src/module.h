@@ -4,5 +4,5 @@
 #include <string>
 std::string GetDachoHome();
 void * CreateJavaVM();
-
+void DestroyJavaVM();
 #endif

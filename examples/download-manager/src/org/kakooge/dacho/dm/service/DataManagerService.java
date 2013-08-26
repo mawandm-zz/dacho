@@ -111,14 +111,14 @@ public class DataManagerService extends ServiceBase{
 				logger.info(String.format("Running with config file: %s", fileName));
 			
 			properties = getProperties(fileName);
-			final Map<String, String> scheduleMap = getSchedules(serviceContext.getInitParameter(ServiceRunnable.RUN_SCHEDULE));
+			final Map<String, String> scheduleMap = getSchedules(serviceContext.getInitParameter(YahooPriceDownloadProcess.RUN_SCHEDULE));
 			for(final Map.Entry<String, String> entry : scheduleMap.entrySet()){
 				final Properties props = new Properties();
 				
 				// Clone the properties and set the run.market. Then pass the cloned properties into the scheduled task
 				Utilities.copyProperties(properties, props);
-				props.setProperty(ServiceRunnable.RUN_MARKET, entry.getKey());
-				ServiceRunnable serviceRunnable = new ServiceRunnable(logger, serviceContext, props, name);
+				props.setProperty(YahooPriceDownloadProcess.RUN_MARKET, entry.getKey());
+				Runnable serviceRunnable = new YahooPriceDownloadProcess(logger, serviceContext, props);
 				
 				if(debug)
 					logger.info(String.format("Scheduling %s downloads with schedule %s", entry.getKey(), entry.getValue()));
@@ -165,7 +165,6 @@ public class DataManagerService extends ServiceBase{
 				logger.info(String.format("%s=%s", name, serviceContext.getInitParameter(name)));
 			}
 		}
-		
 		
         try {
 			init(logger, serviceContext);

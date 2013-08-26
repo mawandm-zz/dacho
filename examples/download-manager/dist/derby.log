@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Mon Aug 26 00:55:00 BST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-0140-b7e4-26d0-00000e5ef480 
+on database directory /host/Users/mawandm/Documents/Projects/kakooge/dacho/examples/download-manager/dist/download-db  with class loader sun.misc.Launcher$AppClassLoader@553f5d07 
+Loaded from file:/host/Users/mawandm/Documents/Projects/kakooge/dacho/examples/download-manager/dist/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_24-b24
+user.dir=/host/Users/mawandm/Documents/Projects/kakooge/dacho/examples/download-manager/dist
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
